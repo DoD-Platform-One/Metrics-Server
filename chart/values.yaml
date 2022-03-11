@@ -117,7 +117,15 @@ serviceMonitor:
   interval: 1m
   scrapeTimeout: 10s
 
-resources: {}
+# Pulled from README under 'Scaling' for <= 100 nodes
+resources:
+  limits:
+    cpu: 100m
+    memory: 200Mi
+  requests:
+    cpu: 100m
+    memory: 200Mi
+
 
 extraVolumeMounts: []
 
