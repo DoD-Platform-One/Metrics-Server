@@ -138,6 +138,9 @@ tolerations: []
 affinity: {}
 
 domain: bigbang.dev
+
+OpenShift:
+  enabled: false
 istio:
   enabled: false
   # -- Default neuvector peer authentication
