@@ -135,16 +135,16 @@ nodeSelector: {}
 
 tolerations: []
 
-affinity: {}
+affinity:
   podAntiAffinity:
-    preferredDuringSchedulingIgnoredDuringExecution:
+    requiredDuringSchedulingIgnoredDuringExecution:
     - labelSelector:
         matchExpressions:
         - key: app
           operator: In
           values:
           - metrics-server
-
+      topologyKey: "kubernetes.io/hostname"
 domain: bigbang.dev
 
 OpenShift:
