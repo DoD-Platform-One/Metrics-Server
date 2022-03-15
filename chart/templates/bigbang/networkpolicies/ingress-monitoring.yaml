@@ -17,7 +17,7 @@ spec:
         - port: {{ .Values.service.port}}
           protocol: TCP
   podSelector:
-      matchLabels: {{ include "metrics-server.labels" . | nindent 8 }}
+      matchLabels: {{ include "metrics-server.selectorLabels" . | nindent 8 }}
   policyTypes:
     - Ingress
 {{- end }}
