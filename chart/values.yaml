@@ -59,7 +59,7 @@ hostNetwork:
   # if you use Weave network on EKS
   enabled: false
 
-replicas: 1
+replicas: 2
 
 updateStrategy: {}
 #   type: RollingUpdate
@@ -136,6 +136,14 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+  podAntiAffinity:
+    preferredDuringSchedulingIgnoredDuringExecution:
+    - labelSelector:
+        matchExpressions:
+        - key: app
+          operator: In
+          values:
+          - metrics-server
 
 domain: bigbang.dev
 
