@@ -7,6 +7,8 @@ Metrics Server is a scalable, efficient source of container resource metrics for
 ## Upstream References
 * <https://github.com/kubernetes-sigs/metrics-server>
 
+* <https://github.com/kubernetes-sigs/metrics-server>
+
 ## Learn More
 * [Application Overview](docs/overview.md)
 * [Other Documentation](docs/)
@@ -55,7 +57,7 @@ helm install metrics-server chart/
 | priorityClassName | string | `"system-cluster-critical"` |  |
 | containerPort | int | `4443` |  |
 | hostNetwork.enabled | bool | `false` |  |
-| replicas | int | `1` |  |
+| replicas | int | `2` |  |
 | updateStrategy | object | `{}` |  |
 | podDisruptionBudget.enabled | bool | `false` |  |
 | podDisruptionBudget.minAvailable | string | `nil` |  |
@@ -86,12 +88,27 @@ helm install metrics-server chart/
 | serviceMonitor.additionalLabels | object | `{}` |  |
 | serviceMonitor.interval | string | `"1m"` |  |
 | serviceMonitor.scrapeTimeout | string | `"10s"` |  |
-| resources | object | `{}` |  |
+| resources.limits.cpu | string | `"100m"` |  |
+| resources.limits.memory | string | `"200Mi"` |  |
+| resources.requests.cpu | string | `"100m"` |  |
+| resources.requests.memory | string | `"200Mi"` |  |
 | extraVolumeMounts | list | `[]` |  |
 | extraVolumes | list | `[]` |  |
 | nodeSelector | object | `{}` |  |
 | tolerations | list | `[]` |  |
-| affinity | object | `{}` |  |
+| affinity.podAntiAffinity.requiredDuringSchedulingIgnoredDuringExecution[0].labelSelector.matchExpressions[0].key | string | `"app"` |  |
+| affinity.podAntiAffinity.requiredDuringSchedulingIgnoredDuringExecution[0].labelSelector.matchExpressions[0].operator | string | `"In"` |  |
+| affinity.podAntiAffinity.requiredDuringSchedulingIgnoredDuringExecution[0].labelSelector.matchExpressions[0].values[0] | string | `"metrics-server"` |  |
+| affinity.podAntiAffinity.requiredDuringSchedulingIgnoredDuringExecution[0].topologyKey | string | `"kubernetes.io/hostname"` |  |
+| domain | string | `"bigbang.dev"` |  |
+| OpenShift.enabled | bool | `false` |  |
+| istio.enabled | bool | `false` |  |
+| monitoring.enabled | bool | `false` |  |
+| networkPolicies.enabled | bool | `false` |  |
+| networkPolicies.ingressLabels.app | string | `"istio-ingressgateway"` |  |
+| networkPolicies.ingressLabels.istio | string | `"ingressgateway"` |  |
+| networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |
+| networkPolicies.egressHttps.enabled | bool | `true` |  |
 
 ## Contributing
 
