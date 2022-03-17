@@ -147,7 +147,7 @@ affinity:
       topologyKey: "kubernetes.io/hostname"
 domain: bigbang.dev
 
-OpenShift:
+openshift:
   enabled: false
 istio:
   enabled: false
@@ -157,9 +157,4 @@ monitoring:
 
 networkPolicies:
   enabled: false
-  ingressLabels: 
-    app: istio-ingressgateway
-    istio: ingressgateway
   controlPlaneCidr: 0.0.0.0/0
-  egressHttps:
-    enabled: true

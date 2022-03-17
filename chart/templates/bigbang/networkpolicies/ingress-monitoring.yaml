@@ -1,4 +1,4 @@
-{{- if and .Values.networkPolicies.enabled .Values.serviceMonitor.enabled}}
+{{- if and .Values.networkPolicies.enabled .Values.serviceMonitor.enabled }}
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
@@ -16,8 +16,7 @@ spec:
       ports:
         - port: {{ .Values.containerPort}}
           protocol: TCP
-  podSelector:
-      matchLabels: {{ include "metrics-server.selectorLabels" . | nindent 8 }}
+  podSelector: {}
   policyTypes:
     - Ingress
 {{- end }}
