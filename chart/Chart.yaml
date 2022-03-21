@@ -27,3 +27,5 @@ annotations:
       description: "Add PrometheusOperator ServiceMonitor."
     - kind: changed
       description: "Update Metrics Server image to v0.6.0."
+  bigbang.dev/applicationVersions: |
+    - Metrics Server: 0.6.0
