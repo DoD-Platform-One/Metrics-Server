@@ -1,6 +1,6 @@
 # metrics-server
 
-![Version: 3.8.0-bb.0](https://img.shields.io/badge/Version-3.8.0--bb.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 0.6.0](https://img.shields.io/badge/AppVersion-0.6.0-informational?style=flat-square)
+![Version: 3.8.0-bb.1](https://img.shields.io/badge/Version-3.8.0--bb.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 0.6.0](https://img.shields.io/badge/AppVersion-0.6.0-informational?style=flat-square)
 
 Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 
@@ -101,14 +101,12 @@ helm install metrics-server chart/
 | affinity.podAntiAffinity.requiredDuringSchedulingIgnoredDuringExecution[0].labelSelector.matchExpressions[0].values[0] | string | `"metrics-server"` |  |
 | affinity.podAntiAffinity.requiredDuringSchedulingIgnoredDuringExecution[0].topologyKey | string | `"kubernetes.io/hostname"` |  |
 | domain | string | `"bigbang.dev"` |  |
-| OpenShift.enabled | bool | `false` |  |
+| openshift.enabled | bool | `false` |  |
 | istio.enabled | bool | `false` |  |
 | monitoring.enabled | bool | `false` |  |
 | networkPolicies.enabled | bool | `false` |  |
-| networkPolicies.ingressLabels.app | string | `"istio-ingressgateway"` |  |
-| networkPolicies.ingressLabels.istio | string | `"ingressgateway"` |  |
 | networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |
-| networkPolicies.egressHttps.enabled | bool | `true` |  |
+| networkPolicies.nodeCidr | string | `nil` |  |
 
 ## Contributing
 
