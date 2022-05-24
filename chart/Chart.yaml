@@ -2,8 +2,8 @@ apiVersion: v2
 name: metrics-server
 description: Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 type: application
-version: 3.8.0-bb.1
-appVersion: 0.6.0
+version: 3.8.0-bb.2
+appVersion: 0.6.1
 keywords:
   - kubernetes
   - metrics-server
@@ -26,6 +26,6 @@ annotations:
     - kind: added
       description: "Add PrometheusOperator ServiceMonitor."
     - kind: changed
-      description: "Update Metrics Server image to v0.6.0."
+      description: "Update Metrics Server image to v0.6.1."
   bigbang.dev/applicationVersions: |
-    - Metrics Server: 0.6.0
+    - Metrics Server: 0.6.1

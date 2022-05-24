@@ -3,13 +3,13 @@
 # Declare variables to be passed into your templates.
 
 image:
-  repository: k8s.gcr.io/metrics-server/metrics-server
+  repository: registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server
   # Overrides the image tag whose default is v{{ .Chart.AppVersion }}
-  tag: ""
+  tag: "0.6.1"
   pullPolicy: IfNotPresent
 
-imagePullSecrets: []
-# - registrySecretName
+imagePullSecrets:
+- name: private-registry
 
 nameOverride: ""
 fullnameOverride: ""

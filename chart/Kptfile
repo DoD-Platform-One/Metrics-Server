@@ -1,18 +1,11 @@
-apiVersion: kpt.dev/v1
+apiVersion: kpt.dev/v1alpha1
 kind: Kptfile
 metadata:
   name: chart
 upstream:
   type: git
   git:
-    repo: https://github.com/kubernetes-sigs/metrics-server
-    directory: /charts/metrics-server
-    ref: v0.6.1
-  updateStrategy: resource-merge
-upstreamLock:
-  type: git
-  git:
-    repo: https://github.com/kubernetes-sigs/metrics-server
-    directory: /charts/metrics-server
-    ref: v0.6.1
     commit: 9c9d712d31742f7c32c023d7b36c49c2dc7033b5
+    repo: https://github.com/kubernetes-sigs/metrics-server
+    directory: charts/metrics-server
+    ref: v0.6.1
