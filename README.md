@@ -1,6 +1,6 @@
 # metrics-server
 
-![Version: 3.8.0-bb.3](https://img.shields.io/badge/Version-3.8.0--bb.3-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 0.6.1](https://img.shields.io/badge/AppVersion-0.6.1-informational?style=flat-square)
+![Version: 3.8.0-bb.4](https://img.shields.io/badge/Version-3.8.0--bb.4-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 0.6.1](https://img.shields.io/badge/AppVersion-0.6.1-informational?style=flat-square)
 
 Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 
@@ -103,6 +103,7 @@ helm install metrics-server chart/
 | domain | string | `"bigbang.dev"` |  |
 | openshift.enabled | bool | `false` |  |
 | istio.enabled | bool | `false` |  |
+| istio.mtls.mode | string | `"STRICT"` | STRICT = Allow only mutual TLS traffic, PERMISSIVE = Allow both plain text and mutual TLS traffic |
 | monitoring.enabled | bool | `false` |  |
 | networkPolicies.enabled | bool | `false` |  |
 | networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |
