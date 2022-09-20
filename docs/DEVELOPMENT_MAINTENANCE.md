@@ -9,7 +9,7 @@ When an upgrade is required, `kpt` can be ran to pull the updates with a targete
 
 Once completed, you will need to reconcile the modifications that Big Bang makes back into the orchestration.
 
-# Modfiications Made to the upstream chart
+# Modifications Made to the upstream chart
 
 ## /chart/Chart.yaml
 - Added `bigbang.dev/applicationVersions` annotation with the metrics server version
@@ -28,4 +28,4 @@ Once completed, you will need to reconcile the modifications that Big Bang makes
 
 # Testing a new Metrics Server version
 
-Current testing is done manually. Deployment of Big Bang with Istio, Monitoring, Network Policies and metrics server enabled will allow the use of `kubectl top nodes` and `kubectl top pods -A` to report utilization.  
+Current testing is done manually. Deployment of Big Bang with Istio, Monitoring, Network Policies and metrics server enabled will allow the use of `kubectl top nodes` and `kubectl top pods -A` to report utilization.
