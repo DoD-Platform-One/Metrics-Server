@@ -165,3 +165,10 @@ networkPolicies:
   # CIDR range of your kubernetes nodes. Must be an IP CIDR range (x.x.x.x/x). Allows k8s to metrics-server communication.
   # Defaults to include: "10.0.0.0/8" "172.16.0.0/12" "192.168.0.0/16" "100.64.0.0/10" networks
   nodeCidr: null
+
+bbtests:
+  enabled: false
+  scripts:
+    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.25.3
+  imagePullSecret: private-registry
+

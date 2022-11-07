@@ -2,7 +2,7 @@ apiVersion: v2
 name: metrics-server
 description: Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 type: application
-version: 3.8.0-bb.4
+version: 3.8.0-bb.5
 appVersion: 0.6.1
 keywords:
   - kubernetes
@@ -19,6 +19,10 @@ maintainers:
     url: https://github.com/krmichel
   - name: endrec
     url: https://github.com/endrec
+dependencies:
+  - name: gluon
+    version: 0.3.0
+    repository: oci://registry.dso.mil/platform-one/big-bang/apps/library-charts/gluon
 annotations:
   artifacthub.io/changes: |
     - kind: added
