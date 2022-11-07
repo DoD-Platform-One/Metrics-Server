@@ -1,0 +1,9 @@
+{{- include "gluon.tests.script-configmap.overrides" (list . "metrics-test.script-configmap") }}
+{{- define "metrics-test.script-configmap" }}
+{{- end }}
+---
+{{- include "gluon.tests.script-runner.overrides" (list . "metrics-test.script-runner") -}}
+{{- define "metrics-test.script-runner" -}}
+spec:
+  serviceAccountName: {{ printf (include "metrics-server.fullname" .) }}-bbtest-account
+{{- end }}
