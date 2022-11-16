@@ -3,6 +3,10 @@
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+## [3.8.0-bb.6]
+### Added
+- Updated kubectl image to v1.25.4
+
 ## [3.8.0-bb.5]
 ### Added
 - Added bbtests structure and script tests
