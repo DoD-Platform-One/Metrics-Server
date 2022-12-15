@@ -1,6 +1,6 @@
 # metrics-server
 
-![Version: 3.8.0-bb.6](https://img.shields.io/badge/Version-3.8.0--bb.6-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 0.6.1](https://img.shields.io/badge/AppVersion-0.6.1-informational?style=flat-square)
+![Version: 3.8.3-bb.0](https://img.shields.io/badge/Version-3.8.3--bb.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 0.6.2](https://img.shields.io/badge/AppVersion-0.6.2-informational?style=flat-square)
 
 Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 
@@ -36,7 +36,7 @@ helm install metrics-server chart/
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
 | image.repository | string | `"registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server"` |  |
-| image.tag | string | `"0.6.1"` |  |
+| image.tag | string | `"v0.6.2"` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
 | imagePullSecrets[0].name | string | `"private-registry"` |  |
 | nameOverride | string | `""` |  |
@@ -44,9 +44,14 @@ helm install metrics-server chart/
 | serviceAccount.create | bool | `true` |  |
 | serviceAccount.annotations | object | `{}` |  |
 | serviceAccount.name | string | `""` |  |
+| serviceAccount.secrets | list | `[]` |  |
 | rbac.create | bool | `true` |  |
 | rbac.pspEnabled | bool | `false` |  |
 | apiService.create | bool | `true` |  |
+| apiService.annotations | object | `{}` |  |
+| apiService.insecureSkipTLSVerify | bool | `true` |  |
+| apiService.caBundle | string | `""` |  |
+| commonLabels | object | `{}` |  |
 | podLabels | object | `{}` |  |
 | podAnnotations | object | `{}` |  |
 | podSecurityContext | object | `{}` |  |
@@ -88,6 +93,8 @@ helm install metrics-server chart/
 | serviceMonitor.additionalLabels | object | `{}` |  |
 | serviceMonitor.interval | string | `"1m"` |  |
 | serviceMonitor.scrapeTimeout | string | `"10s"` |  |
+| serviceMonitor.metricRelabelings | list | `[]` |  |
+| serviceMonitor.relabelings | list | `[]` |  |
 | resources.limits.cpu | string | `"100m"` |  |
 | resources.limits.memory | string | `"200Mi"` |  |
 | resources.requests.cpu | string | `"100m"` |  |
@@ -109,8 +116,11 @@ helm install metrics-server chart/
 | networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |
 | networkPolicies.nodeCidr | string | `nil` |  |
 | bbtests.enabled | bool | `false` |  |
-| bbtests.scripts.image | string | `"registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.25.4"` |  |
+| bbtests.scripts.image | string | `"registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.25.5"` |  |
 | bbtests.imagePullSecret | string | `"private-registry"` |  |
+| topologySpreadConstraints | list | `[]` |  |
+| deploymentAnnotations | object | `{}` |  |
+| schedulerName | string | `""` |  |
 
 ## Contributing
 

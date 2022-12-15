@@ -5,7 +5,7 @@ metadata:
 upstream:
   type: git
   git:
-    commit: 9c9d712d31742f7c32c023d7b36c49c2dc7033b5
+    commit: eb650ca6fc36504e7ac478f6b8cc9f28d2c1b81f
     repo: https://github.com/kubernetes-sigs/metrics-server
     directory: charts/metrics-server
-    ref: v0.6.1
+    ref: metrics-server-helm-chart-3.8.3

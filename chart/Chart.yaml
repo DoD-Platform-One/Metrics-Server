@@ -2,8 +2,8 @@ apiVersion: v2
 name: metrics-server
 description: Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 type: application
-version: 3.8.0-bb.6
-appVersion: 0.6.1
+version: 3.8.3-bb.0
+appVersion: 0.6.2
 keywords:
   - kubernetes
   - metrics-server
@@ -26,10 +26,18 @@ dependencies:
 annotations:
   artifacthub.io/changes: |
     - kind: added
-      description: "Add support for unauthenticated access to /metrics endpoint."
+      description: "Added support for topologySpreadConstraints."
     - kind: added
-      description: "Add PrometheusOperator ServiceMonitor."
+      description: "Set resource namespaces explicitly."
+    - kind: added
+      description: "Allow configuring TLS on the APIService."
+    - kind: added
+      description: "Enabled service monitor relabelling."
+    - kind: added
+      description: "Added ability to set the scheduler name."
+    - kind: added
+      description: "Added support for common labels."
     - kind: changed
-      description: "Update Metrics Server image to v0.6.1."
+      description: "Update Metrics Server image to v0.6.2."
   bigbang.dev/applicationVersions: |
-    - Metrics Server: 0.6.1
+    - Metrics Server: 0.6.2
