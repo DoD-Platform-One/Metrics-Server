@@ -41,3 +41,6 @@ annotations:
       description: "Update Metrics Server image to v0.6.2."
   bigbang.dev/applicationVersions: |
     - Metrics Server: 0.6.2
+  helm.sh/images: |
+    - name: metrics-server
+      image: registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server:v0.6.2
