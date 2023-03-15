@@ -181,7 +181,7 @@ networkPolicies:
 bbtests:
   enabled: false
   scripts:
-    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.26.1
+    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.26.2
   imagePullSecret: private-registry
 
 topologySpreadConstraints: []
