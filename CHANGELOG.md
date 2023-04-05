@@ -3,6 +3,12 @@
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+## [3.9.0-bb.0]
+### Added
+- Updated helm chart version and upstream changes.
+- Upgrade metrics server image 0.6.2 -> 0.6.3
+- Update patch version of kubectl v1.26.2 -> 1.26.3
+
 ## [3.8.4-bb.0]
 ### Added
 - Updated helm chart version. Upstream changes do not apply.
