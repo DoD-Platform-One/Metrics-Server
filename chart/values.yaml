@@ -122,7 +122,7 @@ addonResizer:
   enabled: false
   image:
     repository: registry.k8s.io/autoscaling/addon-resizer
-    tag: 1.8.14
+    tag: 1.8.18
   resources:
     limits:
       cpu: 40m
@@ -202,7 +202,7 @@ networkPolicies:
 bbtests:
   enabled: false
   scripts:
-    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.26.3
+    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.26.4
   imagePullSecret: private-registry
 
 topologySpreadConstraints: []
