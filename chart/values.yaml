@@ -56,10 +56,15 @@ securityContext:
   readOnlyRootFilesystem: true
   runAsNonRoot: true
   runAsUser: 1000
+  seccompProfile:
+    type: RuntimeDefault
+  capabilities:
+    drop:
+      - ALL
 
 priorityClassName: system-cluster-critical
 
-containerPort: 4443
+containerPort: 10250
 
 hostNetwork:
   # Specifies if metrics-server should be started in hostNetwork mode.
@@ -202,7 +207,7 @@ networkPolicies:
 bbtests:
   enabled: false
   scripts:
-    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.26.4
+    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:1.27.3
   imagePullSecret: private-registry
 
 topologySpreadConstraints: []
