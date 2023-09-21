@@ -1,6 +1,6 @@
 # metrics-server
 
-![Version: 3.9.0-bb.1](https://img.shields.io/badge/Version-3.9.0--bb.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.6.3](https://img.shields.io/badge/AppVersion-v0.6.3-informational?style=flat-square)
+![Version: 3.10.0-bb.1](https://img.shields.io/badge/Version-3.10.0--bb.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.6.3](https://img.shields.io/badge/AppVersion-v0.6.3-informational?style=flat-square)
 
 Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 
@@ -59,8 +59,11 @@ helm install metrics-server chart/
 | securityContext.readOnlyRootFilesystem | bool | `true` |  |
 | securityContext.runAsNonRoot | bool | `true` |  |
 | securityContext.runAsUser | int | `1000` |  |
+| securityContext."runAs Group" | int | `1000` |  |
+| securityContext.seccompProfile.type | string | `"RuntimeDefault"` |  |
+| securityContext.capabilities.drop[0] | string | `"ALL"` |  |
 | priorityClassName | string | `"system-cluster-critical"` |  |
-| containerPort | int | `4443` |  |
+| containerPort | int | `10250` |  |
 | hostNetwork.enabled | bool | `false` |  |
 | replicas | int | `2` |  |
 | updateStrategy | object | `{}` |  |
@@ -90,7 +93,7 @@ helm install metrics-server chart/
 | service.labels | object | `{}` |  |
 | addonResizer.enabled | bool | `false` |  |
 | addonResizer.image.repository | string | `"registry.k8s.io/autoscaling/addon-resizer"` |  |
-| addonResizer.image.tag | string | `"1.8.18"` |  |
+| addonResizer.image.tag | string | `"1.8.19"` |  |
 | addonResizer.resources.limits.cpu | string | `"40m"` |  |
 | addonResizer.resources.limits.memory | string | `"25Mi"` |  |
 | addonResizer.resources.requests.cpu | string | `"40m"` |  |
@@ -130,7 +133,7 @@ helm install metrics-server chart/
 | networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |
 | networkPolicies.nodeCidr | string | `nil` |  |
 | bbtests.enabled | bool | `false` |  |
-| bbtests.scripts.image | string | `"registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.27.3"` |  |
+| bbtests.scripts.image | string | `"registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:1.27.6"` |  |
 | bbtests.imagePullSecret | string | `"private-registry"` |  |
 | topologySpreadConstraints | list | `[]` |  |
 | deploymentAnnotations | object | `{}` |  |
