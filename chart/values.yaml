@@ -56,6 +56,7 @@ securityContext:
   readOnlyRootFilesystem: true
   runAsNonRoot: true
   runAsUser: 1000
+  runAsGroup: 1000
   seccompProfile:
     type: RuntimeDefault
   capabilities:
@@ -127,7 +128,7 @@ addonResizer:
   enabled: false
   image:
     repository: registry.k8s.io/autoscaling/addon-resizer
-    tag: 1.8.18
+    tag: 1.8.19
   resources:
     limits:
       cpu: 40m
@@ -207,7 +208,7 @@ networkPolicies:
 bbtests:
   enabled: false
   scripts:
-    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:1.27.3
+    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:1.27.6
   imagePullSecret: private-registry
 
 topologySpreadConstraints: []
