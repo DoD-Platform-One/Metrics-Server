@@ -1,6 +1,6 @@
 # metrics-server
 
-![Version: 3.10.0-bb.1](https://img.shields.io/badge/Version-3.10.0--bb.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.6.3](https://img.shields.io/badge/AppVersion-v0.6.3-informational?style=flat-square)
+![Version: 3.10.0-bb.2](https://img.shields.io/badge/Version-3.10.0--bb.2-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.6.3](https://img.shields.io/badge/AppVersion-v0.6.3-informational?style=flat-square)
 
 Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 
@@ -59,7 +59,7 @@ helm install metrics-server chart/
 | securityContext.readOnlyRootFilesystem | bool | `true` |  |
 | securityContext.runAsNonRoot | bool | `true` |  |
 | securityContext.runAsUser | int | `1000` |  |
-| securityContext."runAs Group" | int | `1000` |  |
+| securityContext.runAsGroup | int | `1000` |  |
 | securityContext.seccompProfile.type | string | `"RuntimeDefault"` |  |
 | securityContext.capabilities.drop[0] | string | `"ALL"` |  |
 | priorityClassName | string | `"system-cluster-critical"` |  |
@@ -133,7 +133,7 @@ helm install metrics-server chart/
 | networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |
 | networkPolicies.nodeCidr | string | `nil` |  |
 | bbtests.enabled | bool | `false` |  |
-| bbtests.scripts.image | string | `"registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:1.27.6"` |  |
+| bbtests.scripts.image | string | `"registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.28.2"` |  |
 | bbtests.imagePullSecret | string | `"private-registry"` |  |
 | topologySpreadConstraints | list | `[]` |  |
 | deploymentAnnotations | object | `{}` |  |
