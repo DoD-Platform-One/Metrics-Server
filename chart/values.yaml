@@ -49,7 +49,10 @@ commonLabels: {}
 podLabels: {}
 podAnnotations: {}
 
-podSecurityContext: {}
+podSecurityContext:
+  runAsNonRoot: true
+  runAsUser: 1000
+  runAsGroup: 1000
 
 securityContext:
   allowPrivilegeEscalation: false
@@ -208,7 +211,7 @@ networkPolicies:
 bbtests:
   enabled: false
   scripts:
-    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:1.27.6
+    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.28.2
   imagePullSecret: private-registry
 
 topologySpreadConstraints: []
