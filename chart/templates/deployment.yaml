@@ -36,6 +36,12 @@ spec:
         {{- toYaml . | nindent 8 }}
       {{- end }}
       serviceAccountName: {{ include "metrics-server.serviceAccountName" . }}
+      {{/* start BB addition 
+      This is set to true because metrics-server relies on info queried from the K8s API
+      Ref: https://kubernetes.io/docs/tasks/debug/debug-cluster/resource-metrics-pipeline/#metrics-server
+      */}}
+      automountServiceAccountToken: true
+      {{/* end BB addition */}}
       {{- with .Values.podSecurityContext }}
       securityContext:
         {{- toYaml . | nindent 8 }}
