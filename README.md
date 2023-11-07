@@ -1,6 +1,6 @@
 # metrics-server
 
-![Version: 3.10.0-bb.2](https://img.shields.io/badge/Version-3.10.0--bb.2-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.6.3](https://img.shields.io/badge/AppVersion-v0.6.3-informational?style=flat-square)
+![Version: 3.10.0-bb.3](https://img.shields.io/badge/Version-3.10.0--bb.3-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.6.3](https://img.shields.io/badge/AppVersion-v0.6.3-informational?style=flat-square)
 
 Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 
@@ -45,6 +45,7 @@ helm install metrics-server chart/
 | serviceAccount.annotations | object | `{}` |  |
 | serviceAccount.name | string | `""` |  |
 | serviceAccount.secrets | list | `[]` |  |
+| serviceAccount.automountServiceAccountToken | bool | `true` |  |
 | rbac.create | bool | `true` |  |
 | rbac.pspEnabled | bool | `false` |  |
 | apiService.create | bool | `true` |  |
@@ -54,7 +55,9 @@ helm install metrics-server chart/
 | commonLabels | object | `{}` |  |
 | podLabels | object | `{}` |  |
 | podAnnotations | object | `{}` |  |
-| podSecurityContext | object | `{}` |  |
+| podSecurityContext.runAsNonRoot | bool | `true` |  |
+| podSecurityContext.runAsUser | int | `1000` |  |
+| podSecurityContext.runAsGroup | int | `1000` |  |
 | securityContext.allowPrivilegeEscalation | bool | `false` |  |
 | securityContext.readOnlyRootFilesystem | bool | `true` |  |
 | securityContext.runAsNonRoot | bool | `true` |  |
@@ -133,7 +136,7 @@ helm install metrics-server chart/
 | networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |
 | networkPolicies.nodeCidr | string | `nil` |  |
 | bbtests.enabled | bool | `false` |  |
-| bbtests.scripts.image | string | `"registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.28.2"` |  |
+| bbtests.scripts.image | string | `"registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.28.3"` |  |
 | bbtests.imagePullSecret | string | `"private-registry"` |  |
 | topologySpreadConstraints | list | `[]` |  |
 | deploymentAnnotations | object | `{}` |  |

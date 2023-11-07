@@ -22,6 +22,13 @@ Once completed, you will need to reconcile the modifications that Big Bang makes
 - Add common values for Big Bang packages for domain, networkpolicies and Istio
 - Increase replicas to 2 for failover
 - Add affinity rules to schedule pods to separate nodes
+- Addition of `serviceAccount.automountServiceAccountToken` to allow API token automounting behavior to be configurable
+
+## chart/templates/serviceaccount.yaml
+- Addition of `serviceAccount.automountServiceAccountToken` to allow API token automounting behavior to be configurable
+
+## chart/templates/deployment.yaml
+- Overrides `automountServiceAccountToken` hardening at the Pod spec-level due to app requirements
 
 ## chart/Kptfile
 - Tracks current upstream chart
