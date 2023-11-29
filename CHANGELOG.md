@@ -3,6 +3,11 @@
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+## [3.11.0-bb.0] - 2023-11-28
+### Added
+- Update patch version of metrics-server from v0.6.3 -> v0.6.4
+- Update patch version of kubectl v1.28.3 -> v1.28.4
+
 ## [3.10.0-bb.3] - 2023-10-30
 ### Added
 - Harden ServiceAccount with `automountServiceAccountToken: false` (overriden at Pod spec-level due to app requirements)
