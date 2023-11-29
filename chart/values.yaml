@@ -5,7 +5,7 @@
 image:
   repository: registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server
   # Overrides the image tag whose default is v{{ .Chart.AppVersion }}
-  tag: "v0.6.3"
+  tag: "v0.6.4"
   pullPolicy: IfNotPresent
 
 imagePullSecrets:
@@ -138,18 +138,18 @@ addonResizer:
     repository: registry.k8s.io/autoscaling/addon-resizer
     tag: 1.8.19
   resources:
-    limits:
+    requests:
       cpu: 40m
       memory: 25Mi
-    requests:
+    limits:
       cpu: 40m
       memory: 25Mi
   nanny:
     cpu: 20m
     extraCpu: 1m
-    extraMemory: 2Mi
     memory: 15Mi
-    minClusterSize: 10
+    extraMemory: 2Mi
+    minClusterSize: 100
     pollPeriod: 300000
     threshold: 5
 
@@ -164,15 +164,14 @@ serviceMonitor:
   metricRelabelings: []
   relabelings: []
 
-# Pulled from README under 'Scaling' for <= 100 nodes
+# See https://github.com/kubernetes-sigs/metrics-server#scaling
 resources:
-  limits:
-    cpu: 100m
-    memory: 200Mi
   requests:
     cpu: 100m
     memory: 200Mi
-
+  limits:
+    cpu: 100m
+    memory: 200Mi
 
 extraVolumeMounts: []
 
@@ -216,7 +215,7 @@ networkPolicies:
 bbtests:
   enabled: false
   scripts:
-    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.28.3
+    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.28.4
   imagePullSecret: private-registry
 
 topologySpreadConstraints: []
