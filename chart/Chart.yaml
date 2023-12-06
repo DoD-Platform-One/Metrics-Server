@@ -2,7 +2,7 @@ apiVersion: v2
 name: metrics-server
 description: Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 type: application
-version: 3.11.0-bb.0
+version: 3.11.0-bb.1
 appVersion: v0.6.4
 keywords:
   - kubernetes
@@ -28,9 +28,9 @@ annotations:
     - kind: added
       description: "Added default Metrics Server resource requests."
     - kind: changed
-      description: "Updated the Metrics Server OCI image to v0.6.3."
+      description: "Updated the Metrics Server OCI image to v0.6.4."
     - kind: changed
-      description: "Updated the addon resizer OCI image to v1.8.19."
+      description: "Updated the addon resizer OCI image to v1.8.20."
     - kind: changed
       description: "Changed the default addon resizer nanny resource configuration to match the documented Metrics Server autoscaling values."
   bigbang.dev/applicationVersions: |
