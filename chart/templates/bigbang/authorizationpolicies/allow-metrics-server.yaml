@@ -1,0 +1,18 @@
+{{- /* allows the kubelet api and control plane access to the metrics-server but locks down all other requests */ -}}
+{{- if and .Values.istio.enabled .Values.istio.hardened.enabled -}}
+apiVersion: security.istio.io/v1
+kind: AuthorizationPolicy
+metadata:
+  name: allow-metrics-server-access
+  namespace: {{ .Release.Namespace }}
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: metrics-server
+  action: ALLOW
+  rules:
+  - to:
+    - operation:
+        ports:
+        - "10250"
+{{- end }}
