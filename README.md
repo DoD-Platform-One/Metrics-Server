@@ -1,6 +1,6 @@
 # metrics-server
 
-![Version: 3.11.0-bb.1](https://img.shields.io/badge/Version-3.11.0--bb.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.6.4](https://img.shields.io/badge/AppVersion-v0.6.4-informational?style=flat-square)
+![Version: 3.11.0-bb.2](https://img.shields.io/badge/Version-3.11.0--bb.2-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.6.4](https://img.shields.io/badge/AppVersion-v0.6.4-informational?style=flat-square)
 
 Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 
@@ -45,7 +45,7 @@ helm install metrics-server chart/
 | serviceAccount.annotations | object | `{}` |  |
 | serviceAccount.name | string | `""` |  |
 | serviceAccount.secrets | list | `[]` |  |
-| serviceAccount.automountServiceAccountToken | bool | `true` |  |
+| serviceAccount.automountServiceAccountToken | bool | `false` |  |
 | rbac.create | bool | `true` |  |
 | rbac.pspEnabled | bool | `false` |  |
 | apiService.create | bool | `true` |  |
@@ -96,16 +96,16 @@ helm install metrics-server chart/
 | service.labels | object | `{}` |  |
 | addonResizer.enabled | bool | `false` |  |
 | addonResizer.image.repository | string | `"registry.k8s.io/autoscaling/addon-resizer"` |  |
-| addonResizer.image.tag | string | `"1.8.19"` |  |
-| addonResizer.resources.limits.cpu | string | `"40m"` |  |
-| addonResizer.resources.limits.memory | string | `"25Mi"` |  |
+| addonResizer.image.tag | string | `"1.8.20"` |  |
 | addonResizer.resources.requests.cpu | string | `"40m"` |  |
 | addonResizer.resources.requests.memory | string | `"25Mi"` |  |
+| addonResizer.resources.limits.cpu | string | `"40m"` |  |
+| addonResizer.resources.limits.memory | string | `"25Mi"` |  |
 | addonResizer.nanny.cpu | string | `"20m"` |  |
 | addonResizer.nanny.extraCpu | string | `"1m"` |  |
-| addonResizer.nanny.extraMemory | string | `"2Mi"` |  |
 | addonResizer.nanny.memory | string | `"15Mi"` |  |
-| addonResizer.nanny.minClusterSize | int | `10` |  |
+| addonResizer.nanny.extraMemory | string | `"2Mi"` |  |
+| addonResizer.nanny.minClusterSize | int | `100` |  |
 | addonResizer.nanny.pollPeriod | int | `300000` |  |
 | addonResizer.nanny.threshold | int | `5` |  |
 | metrics.enabled | bool | `false` |  |
@@ -115,10 +115,10 @@ helm install metrics-server chart/
 | serviceMonitor.scrapeTimeout | string | `"10s"` |  |
 | serviceMonitor.metricRelabelings | list | `[]` |  |
 | serviceMonitor.relabelings | list | `[]` |  |
-| resources.limits.cpu | string | `"100m"` |  |
-| resources.limits.memory | string | `"200Mi"` |  |
 | resources.requests.cpu | string | `"100m"` |  |
 | resources.requests.memory | string | `"200Mi"` |  |
+| resources.limits.cpu | string | `"100m"` |  |
+| resources.limits.memory | string | `"200Mi"` |  |
 | extraVolumeMounts | list | `[]` |  |
 | extraVolumes | list | `[]` |  |
 | nodeSelector | object | `{}` |  |
@@ -130,6 +130,11 @@ helm install metrics-server chart/
 | domain | string | `"bigbang.dev"` |  |
 | openshift.enabled | bool | `false` |  |
 | istio.enabled | bool | `false` |  |
+| istio.hardened.enabled | bool | `false` |  |
+| istio.hardened.customAuthorizationPolicies | list | `[]` |  |
+| istio.hardened.tempo.enabled | bool | `false` |  |
+| istio.hardened.tempo.namespaces[0] | string | `"tempo"` |  |
+| istio.hardened.tempo.principals[0] | string | `"cluster.local/ns/tempo/sa/tempo-tempo"` |  |
 | istio.mtls.mode | string | `"STRICT"` | STRICT = Allow only mutual TLS traffic, PERMISSIVE = Allow both plain text and mutual TLS traffic |
 | monitoring.enabled | bool | `false` |  |
 | networkPolicies.enabled | bool | `false` |  |
