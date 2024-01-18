@@ -4,7 +4,6 @@
     "dependencyDashboard": "true",
     "dependencyDashboardHeader": "- [ ] Sync upstream helm chart version with updated dependencies.",
     "dependencyDashboardTitle": "Renovate: Upgrade Metrics-Server Package Dependencies",
-    "dependencyDashboardLabels": ["kind::maintenance", "priority::2", "team::Observability", "metricsServer"],
     "draftPR": true,
     "enabledManagers": ["helm-values", "regex"],
     "labels": ["metricsServer","Package Sustainment","kind::maintenance", "renovate"],
