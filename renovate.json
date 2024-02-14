@@ -5,7 +5,7 @@
     "dependencyDashboardHeader": "- [ ] Sync upstream helm chart version with updated dependencies.",
     "dependencyDashboardTitle": "Renovate: Upgrade Metrics-Server Package Dependencies",
     "draftPR": true,
-    "enabledManagers": ["helm-values", "regex"],
+    "enabledManagers": ["helm-values", "regex", "helmv3"],
     "labels": ["metricsServer","Package Sustainment","kind::maintenance", "renovate"],
     "commitMessagePrefix": "SKIP UPDATE CHECK",
     "ignorePaths": ["**/.gitlab-ci.yml"],  
