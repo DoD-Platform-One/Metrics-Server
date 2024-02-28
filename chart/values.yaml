@@ -5,7 +5,7 @@
 image:
   repository: registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server
   # Overrides the image tag whose default is v{{ .Chart.AppVersion }}
-  tag: "v0.6.4"
+  tag: "v0.7.0"
   pullPolicy: IfNotPresent
 
 imagePullSecrets:
@@ -85,6 +85,8 @@ hostNetwork:
 
 replicas: 2
 
+revisionHistoryLimit:
+
 updateStrategy: {}
 #   type: RollingUpdate
 #   rollingUpdate:
@@ -137,6 +139,17 @@ addonResizer:
   image:
     repository: registry.k8s.io/autoscaling/addon-resizer
     tag: 1.8.20
+  securityContext:
+    allowPrivilegeEscalation: false
+    readOnlyRootFilesystem: true
+    runAsNonRoot: true
+    runAsUser: 1000
+    runAsGroup: 1000
+    seccompProfile:
+      type: RuntimeDefault
+    capabilities:
+      drop:
+        - ALL
   resources:
     requests:
       cpu: 40m
@@ -228,12 +241,17 @@ networkPolicies:
 bbtests:
   enabled: false
   scripts:
-    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.28.4
+    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.28.7
   imagePullSecret: private-registry
 
 topologySpreadConstraints: []
+
+dnsConfig: {}
 
 # Annotations to add to the deployment
 deploymentAnnotations: {}
 
 schedulerName: ""
+
+tmpVolume:
+  emptyDir: {}

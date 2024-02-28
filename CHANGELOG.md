@@ -3,6 +3,11 @@
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+## [3.12.0-bb.0] - 2024-02-23
+### Added
+- Update metrics-server v0.6.4 -> v0.7.0
+- Update kubectl v1.28.4 -> v1.28.7
+
 ## [3.11.0-bb.3] - 2024-02-14
 ### Added
 - Add `helmv3` to package managers and upgrade Gluon from 0.3.2 -> 0.4.8
