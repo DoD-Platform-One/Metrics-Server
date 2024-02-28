@@ -1,6 +1,6 @@
 # metrics-server
 
-![Version: 3.11.0-bb.3](https://img.shields.io/badge/Version-3.11.0--bb.3-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: v0.6.4](https://img.shields.io/badge/AppVersion-v0.6.4-informational?style=flat-square)
+![Version: 3.12.0-bb.0](https://img.shields.io/badge/Version-3.12.0--bb.0-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 0.7.0](https://img.shields.io/badge/AppVersion-0.7.0-informational?style=flat-square)
 
 Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 
@@ -36,7 +36,7 @@ helm install metrics-server chart/
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
 | image.repository | string | `"registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server"` |  |
-| image.tag | string | `"v0.6.4"` |  |
+| image.tag | string | `"v0.7.0"` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
 | imagePullSecrets[0].name | string | `"private-registry"` |  |
 | nameOverride | string | `""` |  |
@@ -69,6 +69,7 @@ helm install metrics-server chart/
 | containerPort | int | `10250` |  |
 | hostNetwork.enabled | bool | `false` |  |
 | replicas | int | `2` |  |
+| revisionHistoryLimit | string | `nil` |  |
 | updateStrategy | object | `{}` |  |
 | podDisruptionBudget.enabled | bool | `false` |  |
 | podDisruptionBudget.minAvailable | string | `nil` |  |
@@ -97,6 +98,13 @@ helm install metrics-server chart/
 | addonResizer.enabled | bool | `false` |  |
 | addonResizer.image.repository | string | `"registry.k8s.io/autoscaling/addon-resizer"` |  |
 | addonResizer.image.tag | string | `"1.8.20"` |  |
+| addonResizer.securityContext.allowPrivilegeEscalation | bool | `false` |  |
+| addonResizer.securityContext.readOnlyRootFilesystem | bool | `true` |  |
+| addonResizer.securityContext.runAsNonRoot | bool | `true` |  |
+| addonResizer.securityContext.runAsUser | int | `1000` |  |
+| addonResizer.securityContext.runAsGroup | int | `1000` |  |
+| addonResizer.securityContext.seccompProfile.type | string | `"RuntimeDefault"` |  |
+| addonResizer.securityContext.capabilities.drop[0] | string | `"ALL"` |  |
 | addonResizer.resources.requests.cpu | string | `"40m"` |  |
 | addonResizer.resources.requests.memory | string | `"25Mi"` |  |
 | addonResizer.resources.limits.cpu | string | `"40m"` |  |
@@ -141,11 +149,13 @@ helm install metrics-server chart/
 | networkPolicies.controlPlaneCidr | string | `"0.0.0.0/0"` |  |
 | networkPolicies.nodeCidr | string | `nil` |  |
 | bbtests.enabled | bool | `false` |  |
-| bbtests.scripts.image | string | `"registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.28.4"` |  |
+| bbtests.scripts.image | string | `"registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.28.7"` |  |
 | bbtests.imagePullSecret | string | `"private-registry"` |  |
 | topologySpreadConstraints | list | `[]` |  |
+| dnsConfig | object | `{}` |  |
 | deploymentAnnotations | object | `{}` |  |
 | schedulerName | string | `""` |  |
+| tmpVolume.emptyDir | object | `{}` |  |
 
 ## Contributing
 
