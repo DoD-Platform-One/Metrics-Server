@@ -1,7 +1,7 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:588fb7b2-2090-4be6-a1f7-70cd9697e04b",
+  "serialNumber": "urn:uuid:584082c7-71a3-45b5-af93-8849e0a1694d",
   "version": 1,
   "metadata": {
     "tools": null,
@@ -15,7 +15,7 @@
   "components": [
     {
       "type": "container",
-      "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:c1a3ec6496757d2f",
+      "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:83029a3689d29b55",
       "name": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server",
       "version": "v0.7.0",
       "components": [
@@ -1415,7 +1415,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/nytimes/gziphandler@v1.1.1?package-id=4a30d6485f26bc00",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/nytimes/gziphandler@v1.1.1?package-id=1d43e39b9c121acc",
           "name": "github.com/NYTimes/gziphandler",
           "version": "v1.1.1",
           "cpe": "cpe:2.3:a:NYTimes:gziphandler:v1.1.1:*:*:*:*:*:*:*",
@@ -1439,7 +1439,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -1451,7 +1451,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -1469,7 +1469,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/antlr/antlr4@v4.0.0-20230305170008-8188dc5388df?package-id=f4bb19d22df013fb#runtime/Go/antlr/v4",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/antlr/antlr4@v4.0.0-20230305170008-8188dc5388df?package-id=35c23ef23979a93d#runtime/Go/antlr/v4",
           "name": "github.com/antlr/antlr4/runtime/Go/antlr/v4",
           "version": "v4.0.0-20230305170008-8188dc5388df",
           "cpe": "cpe:2.3:a:antlr:antlr4\\/runtime\\/Go\\/antlr\\/v4:v4.0.0-20230305170008-8188dc5388df:*:*:*:*:*:*:*",
@@ -1493,7 +1493,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -1505,7 +1505,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -1523,7 +1523,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/asaskevich/govalidator@v0.0.0-20230301143203-a9d515a09cc2?package-id=365e5481d4dc5d58",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/asaskevich/govalidator@v0.0.0-20230301143203-a9d515a09cc2?package-id=29ebcc9fb678b145",
           "name": "github.com/asaskevich/govalidator",
           "version": "v0.0.0-20230301143203-a9d515a09cc2",
           "cpe": "cpe:2.3:a:asaskevich:govalidator:v0.0.0-20230301143203-a9d515a09cc2:*:*:*:*:*:*:*",
@@ -1547,7 +1547,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -1559,7 +1559,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -1577,7 +1577,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=18405c535c21c68c",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=40aeda8edd5abc91",
           "name": "github.com/beorn7/perks",
           "version": "v1.0.1",
           "cpe": "cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*",
@@ -1601,7 +1601,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -1613,7 +1613,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -1631,7 +1631,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/blang/semver@v4.0.0?package-id=1a252ff2bc77cc15#v4",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/blang/semver@v4.0.0?package-id=9a7f3e8e2685b456#v4",
           "name": "github.com/blang/semver/v4",
           "version": "v4.0.0",
           "cpe": "cpe:2.3:a:blang:semver\\/v4:v4.0.0:*:*:*:*:*:*:*",
@@ -1655,7 +1655,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -1667,7 +1667,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -1685,7 +1685,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/cenkalti/backoff@v4.2.1?package-id=d0e0bf687ccf3ff2#v4",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/cenkalti/backoff@v4.2.1?package-id=0115ecf1df11ad52#v4",
           "name": "github.com/cenkalti/backoff/v4",
           "version": "v4.2.1",
           "cpe": "cpe:2.3:a:cenkalti:backoff\\/v4:v4.2.1:*:*:*:*:*:*:*",
@@ -1709,7 +1709,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -1721,7 +1721,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -1739,7 +1739,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/cespare/xxhash@v2.2.0?package-id=343550a1a3e81bd1#v2",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/cespare/xxhash@v2.2.0?package-id=1886d411bec02745#v2",
           "name": "github.com/cespare/xxhash/v2",
           "version": "v2.2.0",
           "cpe": "cpe:2.3:a:cespare:xxhash\\/v2:v2.2.0:*:*:*:*:*:*:*",
@@ -1763,7 +1763,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -1775,7 +1775,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -1793,7 +1793,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/coreos/go-semver@v0.3.1?package-id=81d1948cb8970694",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/coreos/go-semver@v0.3.1?package-id=9217b519851a54ab",
           "name": "github.com/coreos/go-semver",
           "version": "v0.3.1",
           "cpe": "cpe:2.3:a:coreos:go-semver:v0.3.1:*:*:*:*:*:*:*",
@@ -1821,7 +1821,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -1833,7 +1833,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -1851,7 +1851,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/coreos/go-systemd@v22.5.0?package-id=b679590e0314e6b8#v22",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/coreos/go-systemd@v22.5.0?package-id=e87177aba8ed8fef#v22",
           "name": "github.com/coreos/go-systemd/v22",
           "version": "v22.5.0",
           "cpe": "cpe:2.3:a:coreos:go-systemd\\/v22:v22.5.0:*:*:*:*:*:*:*",
@@ -1879,7 +1879,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -1891,7 +1891,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -1909,7 +1909,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/davecgh/go-spew@v1.1.2-0.20180830191138-d8f796af33cc?package-id=2adbb032cb17d7d8",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/davecgh/go-spew@v1.1.2-0.20180830191138-d8f796af33cc?package-id=ec9d325bff8e2cc6",
           "name": "github.com/davecgh/go-spew",
           "version": "v1.1.2-0.20180830191138-d8f796af33cc",
           "cpe": "cpe:2.3:a:davecgh:go-spew:v1.1.2-0.20180830191138-d8f796af33cc:*:*:*:*:*:*:*",
@@ -1937,7 +1937,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -1949,7 +1949,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -1967,7 +1967,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/emicklei/go-restful@v3.11.0?package-id=9c1ed83dea712c04#v3",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/emicklei/go-restful@v3.11.0?package-id=fc50a4724f96118b#v3",
           "name": "github.com/emicklei/go-restful/v3",
           "version": "v3.11.0",
           "cpe": "cpe:2.3:a:emicklei:go-restful\\/v3:v3.11.0:*:*:*:*:*:*:*",
@@ -1995,7 +1995,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2007,7 +2007,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2025,7 +2025,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/evanphx/json-patch@v5.6.0\u002Bincompatible?package-id=7ad60290cc28d593",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/evanphx/json-patch@v5.6.0\u002Bincompatible?package-id=bca4a848570defc1",
           "name": "github.com/evanphx/json-patch",
           "version": "v5.6.0\u002Bincompatible",
           "cpe": "cpe:2.3:a:evanphx:json-patch:v5.6.0\\\u002Bincompatible:*:*:*:*:*:*:*",
@@ -2053,7 +2053,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2065,7 +2065,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2083,7 +2083,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/felixge/httpsnoop@v1.0.4?package-id=dac2527779d4f4f4",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/felixge/httpsnoop@v1.0.4?package-id=fd28e789a891516c",
           "name": "github.com/felixge/httpsnoop",
           "version": "v1.0.4",
           "cpe": "cpe:2.3:a:felixge:httpsnoop:v1.0.4:*:*:*:*:*:*:*",
@@ -2107,7 +2107,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2119,7 +2119,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2137,7 +2137,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/fsnotify/fsnotify@v1.7.0?package-id=7cef6be5bd71668f",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/fsnotify/fsnotify@v1.7.0?package-id=3677fb06523cc200",
           "name": "github.com/fsnotify/fsnotify",
           "version": "v1.7.0",
           "cpe": "cpe:2.3:a:fsnotify:fsnotify:v1.7.0:*:*:*:*:*:*:*",
@@ -2161,7 +2161,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2173,7 +2173,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2191,7 +2191,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/go-logr/logr@v1.4.1?package-id=8ce88a1e83661f68",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/go-logr/logr@v1.4.1?package-id=2081435888832b0e",
           "name": "github.com/go-logr/logr",
           "version": "v1.4.1",
           "cpe": "cpe:2.3:a:go-logr:logr:v1.4.1:*:*:*:*:*:*:*",
@@ -2223,7 +2223,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2235,7 +2235,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2253,7 +2253,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/go-logr/stdr@v1.2.2?package-id=6a1ddf6de9a3e68d",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/go-logr/stdr@v1.2.2?package-id=4cfea939170dc105",
           "name": "github.com/go-logr/stdr",
           "version": "v1.2.2",
           "cpe": "cpe:2.3:a:go-logr:stdr:v1.2.2:*:*:*:*:*:*:*",
@@ -2285,7 +2285,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2297,7 +2297,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2315,7 +2315,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/go-logr/zapr@v1.2.3?package-id=1fde8002fe07f576",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/go-logr/zapr@v1.2.3?package-id=cdc6cb3c1c192bb4",
           "name": "github.com/go-logr/zapr",
           "version": "v1.2.3",
           "cpe": "cpe:2.3:a:go-logr:zapr:v1.2.3:*:*:*:*:*:*:*",
@@ -2347,7 +2347,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2359,7 +2359,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2377,7 +2377,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/go-openapi/jsonpointer@v0.20.0?package-id=907b483095097097",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/go-openapi/jsonpointer@v0.20.0?package-id=6284619b08843dec",
           "name": "github.com/go-openapi/jsonpointer",
           "version": "v0.20.0",
           "cpe": "cpe:2.3:a:go-openapi:jsonpointer:v0.20.0:*:*:*:*:*:*:*",
@@ -2409,7 +2409,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2421,7 +2421,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2439,7 +2439,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/go-openapi/jsonreference@v0.20.2?package-id=6b6982bcbc0e3e01",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/go-openapi/jsonreference@v0.20.2?package-id=d54adda106464bca",
           "name": "github.com/go-openapi/jsonreference",
           "version": "v0.20.2",
           "cpe": "cpe:2.3:a:go-openapi:jsonreference:v0.20.2:*:*:*:*:*:*:*",
@@ -2471,7 +2471,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2483,7 +2483,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2501,7 +2501,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/go-openapi/swag@v0.22.4?package-id=d465c747c8f3bd26",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/go-openapi/swag@v0.22.4?package-id=be8454f6f18455a1",
           "name": "github.com/go-openapi/swag",
           "version": "v0.22.4",
           "cpe": "cpe:2.3:a:go-openapi:swag:v0.22.4:*:*:*:*:*:*:*",
@@ -2533,7 +2533,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2545,7 +2545,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2563,7 +2563,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=7318088be407cb18",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=12db6453f4ee1650",
           "name": "github.com/gogo/protobuf",
           "version": "v1.3.2",
           "cpe": "cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*",
@@ -2587,7 +2587,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2599,7 +2599,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2617,7 +2617,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da?package-id=75bfc74e7f285288",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da?package-id=c8e6966c77e79e51",
           "name": "github.com/golang/groupcache",
           "version": "v0.0.0-20210331224755-41bb18bfe9da",
           "cpe": "cpe:2.3:a:golang:groupcache:v0.0.0-20210331224755-41bb18bfe9da:*:*:*:*:*:*:*",
@@ -2641,7 +2641,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2653,7 +2653,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2671,7 +2671,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/golang/protobuf@v1.5.3?package-id=ef14181c14d2ed0e",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/golang/protobuf@v1.5.3?package-id=03349149ceecab9c",
           "name": "github.com/golang/protobuf",
           "version": "v1.5.3",
           "cpe": "cpe:2.3:a:golang:protobuf:v1.5.3:*:*:*:*:*:*:*",
@@ -2695,7 +2695,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2707,7 +2707,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2725,7 +2725,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/google/cel-go@v0.17.7?package-id=e8738401eb77613e",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/google/cel-go@v0.17.7?package-id=ae5d820c6d7e660e",
           "name": "github.com/google/cel-go",
           "version": "v0.17.7",
           "cpe": "cpe:2.3:a:google:cel-go:v0.17.7:*:*:*:*:*:*:*",
@@ -2753,7 +2753,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2765,7 +2765,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2783,7 +2783,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/google/gnostic-models@v0.6.8?package-id=b1acd31420b4b47e",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/google/gnostic-models@v0.6.8?package-id=f773141a4f05e617",
           "name": "github.com/google/gnostic-models",
           "version": "v0.6.8",
           "cpe": "cpe:2.3:a:google:gnostic-models:v0.6.8:*:*:*:*:*:*:*",
@@ -2811,7 +2811,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2823,7 +2823,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2841,7 +2841,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/google/go-cmp@v0.6.0?package-id=48f66b0b6118a821",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/google/go-cmp@v0.6.0?package-id=18829b9bab9620fb",
           "name": "github.com/google/go-cmp",
           "version": "v0.6.0",
           "cpe": "cpe:2.3:a:google:go-cmp:v0.6.0:*:*:*:*:*:*:*",
@@ -2869,7 +2869,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2881,7 +2881,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2899,7 +2899,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/google/gofuzz@v1.2.0?package-id=4f18f1c28e2c42c6",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/google/gofuzz@v1.2.0?package-id=cbe031f7643ce0bd",
           "name": "github.com/google/gofuzz",
           "version": "v1.2.0",
           "cpe": "cpe:2.3:a:google:gofuzz:v1.2.0:*:*:*:*:*:*:*",
@@ -2923,7 +2923,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2935,7 +2935,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -2953,7 +2953,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/google/uuid@v1.3.1?package-id=cd1522f08e830496",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/google/uuid@v1.3.1?package-id=14e90f246429239e",
           "name": "github.com/google/uuid",
           "version": "v1.3.1",
           "cpe": "cpe:2.3:a:google:uuid:v1.3.1:*:*:*:*:*:*:*",
@@ -2977,7 +2977,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -2989,7 +2989,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3007,7 +3007,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/grafana/regexp@v0.0.0-20221122212121-6b5c0a4cb7fd?package-id=5f017c44bc18575a",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/grafana/regexp@v0.0.0-20221122212121-6b5c0a4cb7fd?package-id=d50545c6cbf31c1d",
           "name": "github.com/grafana/regexp",
           "version": "v0.0.0-20221122212121-6b5c0a4cb7fd",
           "cpe": "cpe:2.3:a:grafana:regexp:v0.0.0-20221122212121-6b5c0a4cb7fd:*:*:*:*:*:*:*",
@@ -3031,7 +3031,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3043,7 +3043,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3061,7 +3061,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/grpc-ecosystem/go-grpc-prometheus@v1.2.0?package-id=eb74e14fb327459a",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/grpc-ecosystem/go-grpc-prometheus@v1.2.0?package-id=071163677b9d8a5a",
           "name": "github.com/grpc-ecosystem/go-grpc-prometheus",
           "version": "v1.2.0",
           "cpe": "cpe:2.3:a:grpc-ecosystem:go-grpc-prometheus:v1.2.0:*:*:*:*:*:*:*",
@@ -3105,7 +3105,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3117,7 +3117,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3135,7 +3135,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/grpc-ecosystem/grpc-gateway@v2.16.0?package-id=48bb9e1bee6c3a25#v2",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/grpc-ecosystem/grpc-gateway@v2.16.0?package-id=458603919dfb0644#v2",
           "name": "github.com/grpc-ecosystem/grpc-gateway/v2",
           "version": "v2.16.0",
           "cpe": "cpe:2.3:a:grpc-ecosystem:grpc-gateway\\/v2:v2.16.0:*:*:*:*:*:*:*",
@@ -3179,7 +3179,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3191,7 +3191,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3209,7 +3209,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/imdario/mergo@v0.3.16?package-id=287d42235c2767e1",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/imdario/mergo@v0.3.16?package-id=a990970f5cf48b2b",
           "name": "github.com/imdario/mergo",
           "version": "v0.3.16",
           "cpe": "cpe:2.3:a:imdario:mergo:v0.3.16:*:*:*:*:*:*:*",
@@ -3233,7 +3233,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3245,7 +3245,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3263,7 +3263,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/josharian/intern@v1.0.0?package-id=5d7ba4e3b1c3ea6d",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/josharian/intern@v1.0.0?package-id=6b87e00016f5ee3c",
           "name": "github.com/josharian/intern",
           "version": "v1.0.0",
           "cpe": "cpe:2.3:a:josharian:intern:v1.0.0:*:*:*:*:*:*:*",
@@ -3287,7 +3287,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3299,7 +3299,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3317,7 +3317,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=7d9ce35f5d4f4368",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=ff2e5f110f304f56",
           "name": "github.com/json-iterator/go",
           "version": "v1.1.12",
           "cpe": "cpe:2.3:a:json-iterator:go:v1.1.12:*:*:*:*:*:*:*",
@@ -3349,7 +3349,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3361,7 +3361,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3379,7 +3379,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/mailru/easyjson@v0.7.7?package-id=de9b6eac42811f5a",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/mailru/easyjson@v0.7.7?package-id=1d356a68f7f991db",
           "name": "github.com/mailru/easyjson",
           "version": "v0.7.7",
           "cpe": "cpe:2.3:a:mailru:easyjson:v0.7.7:*:*:*:*:*:*:*",
@@ -3403,7 +3403,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3415,7 +3415,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3433,7 +3433,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/moby/term@v0.0.0-20221205130635-1aeaba878587?package-id=3bbde80751dac5a5",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/moby/term@v0.0.0-20221205130635-1aeaba878587?package-id=48e94f76dcf2df53",
           "name": "github.com/moby/term",
           "version": "v0.0.0-20221205130635-1aeaba878587",
           "cpe": "cpe:2.3:a:moby:term:v0.0.0-20221205130635-1aeaba878587:*:*:*:*:*:*:*",
@@ -3457,7 +3457,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3469,7 +3469,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3487,7 +3487,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=da31824eb5654b7b",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=713bb35fad7763aa",
           "name": "github.com/modern-go/concurrent",
           "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
           "cpe": "cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
@@ -3519,7 +3519,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3531,7 +3531,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3549,7 +3549,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=c7876d094b331068",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=3e7a0c8a6b9e2d0c",
           "name": "github.com/modern-go/reflect2",
           "version": "v1.0.2",
           "cpe": "cpe:2.3:a:modern-go:reflect2:v1.0.2:*:*:*:*:*:*:*",
@@ -3581,7 +3581,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3593,7 +3593,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3611,7 +3611,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822?package-id=09f03e381b27aab7",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822?package-id=8f88be5c23b07d5b",
           "name": "github.com/munnerz/goautoneg",
           "version": "v0.0.0-20191010083416-a7dc8b61c822",
           "cpe": "cpe:2.3:a:munnerz:goautoneg:v0.0.0-20191010083416-a7dc8b61c822:*:*:*:*:*:*:*",
@@ -3635,7 +3635,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3647,7 +3647,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3665,7 +3665,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/pkg/errors@v0.9.1?package-id=0eaad048eb116c50",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/pkg/errors@v0.9.1?package-id=ab048b517d75a878",
           "name": "github.com/pkg/errors",
           "version": "v0.9.1",
           "cpe": "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*",
@@ -3689,7 +3689,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3701,7 +3701,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3719,7 +3719,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/prometheus/client_golang@v1.18.0?package-id=9e6a98d862f57ae9",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/prometheus/client_golang@v1.18.0?package-id=69d9658b12b6a83f",
           "name": "github.com/prometheus/client_golang",
           "version": "v1.18.0",
           "cpe": "cpe:2.3:a:prometheus:client-golang:v1.18.0:*:*:*:*:*:*:*",
@@ -3747,7 +3747,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3759,7 +3759,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3777,7 +3777,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/prometheus/client_model@v0.5.0?package-id=e3177c06a00f6f64",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/prometheus/client_model@v0.5.0?package-id=e0d33221a669f2b3",
           "name": "github.com/prometheus/client_model",
           "version": "v0.5.0",
           "cpe": "cpe:2.3:a:prometheus:client-model:v0.5.0:*:*:*:*:*:*:*",
@@ -3805,7 +3805,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3817,7 +3817,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3835,7 +3835,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/prometheus/common@v0.46.0?package-id=da156f2c43735e4a",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/prometheus/common@v0.46.0?package-id=db9ad9cac1a5fe37",
           "name": "github.com/prometheus/common",
           "version": "v0.46.0",
           "cpe": "cpe:2.3:a:prometheus:common:v0.46.0:*:*:*:*:*:*:*",
@@ -3859,7 +3859,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3871,7 +3871,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3889,7 +3889,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/prometheus/procfs@v0.12.0?package-id=1993eb3e92dcf2bb",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/prometheus/procfs@v0.12.0?package-id=2ebac7e1626c0532",
           "name": "github.com/prometheus/procfs",
           "version": "v0.12.0",
           "cpe": "cpe:2.3:a:prometheus:procfs:v0.12.0:*:*:*:*:*:*:*",
@@ -3913,7 +3913,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3925,7 +3925,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3943,7 +3943,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/prometheus/prometheus@v0.48.1?package-id=7a16091a7b7559e8",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/prometheus/prometheus@v0.48.1?package-id=690997c7ef726e27",
           "name": "github.com/prometheus/prometheus",
           "version": "v0.48.1",
           "cpe": "cpe:2.3:a:prometheus:prometheus:v0.48.1:*:*:*:*:*:*:*",
@@ -3967,7 +3967,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -3979,7 +3979,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -3997,7 +3997,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/spf13/cobra@v1.8.0?package-id=3a50692fecf5326b",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/spf13/cobra@v1.8.0?package-id=28538dea201f308e",
           "name": "github.com/spf13/cobra",
           "version": "v1.8.0",
           "cpe": "cpe:2.3:a:spf13:cobra:v1.8.0:*:*:*:*:*:*:*",
@@ -4021,7 +4021,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -4033,7 +4033,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -4051,7 +4051,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=19c3f5314abb1a92",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=9dee057ed06b86eb",
           "name": "github.com/spf13/pflag",
           "version": "v1.0.5",
           "cpe": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*",
@@ -4075,7 +4075,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -4087,7 +4087,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -4105,7 +4105,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/stoewer/go-strcase@v1.2.0?package-id=dbc220164831e20d",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/github.com/stoewer/go-strcase@v1.2.0?package-id=5e54a52636b2437a",
           "name": "github.com/stoewer/go-strcase",
           "version": "v1.2.0",
           "cpe": "cpe:2.3:a:stoewer:go-strcase:v1.2.0:*:*:*:*:*:*:*",
@@ -4133,7 +4133,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -4145,7 +4145,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -4765,7 +4765,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.etcd.io/etcd/api@v3.5.10?package-id=f64b6ef40fb23575#v3",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.etcd.io/etcd/api@v3.5.10?package-id=59b2e903b35b593b#v3",
           "name": "go.etcd.io/etcd/api/v3",
           "version": "v3.5.10",
           "cpe": "cpe:2.3:a:etcd:api\\/v3:v3.5.10:*:*:*:*:*:*:*",
@@ -4789,7 +4789,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -4801,7 +4801,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -4819,7 +4819,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.etcd.io/etcd/client@v3.5.10?package-id=d43ef9e19f4541bd#pkg/v3",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.etcd.io/etcd/client@v3.5.10?package-id=554ba5ac31da9188#pkg/v3",
           "name": "go.etcd.io/etcd/client/pkg/v3",
           "version": "v3.5.10",
           "cpe": "cpe:2.3:a:etcd:client\\/pkg\\/v3:v3.5.10:*:*:*:*:*:*:*",
@@ -4843,7 +4843,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -4855,7 +4855,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -4873,7 +4873,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.etcd.io/etcd/client@v3.5.10?package-id=9268a54523ef1084#v3",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.etcd.io/etcd/client@v3.5.10?package-id=14a971e59685473f#v3",
           "name": "go.etcd.io/etcd/client/v3",
           "version": "v3.5.10",
           "cpe": "cpe:2.3:a:etcd:client\\/v3:v3.5.10:*:*:*:*:*:*:*",
@@ -4897,7 +4897,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -4909,7 +4909,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -4927,7 +4927,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/contrib/instrumentation@v0.46.1?package-id=6512d07819906853#googlegolangorg/grpc/otelgrpc",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/contrib/instrumentation@v0.46.1?package-id=bfb1f029dfc8e6de#googlegolangorg/grpc/otelgrpc",
           "name": "go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc",
           "version": "v0.46.1",
           "cpe": "cpe:2.3:a:contrib:instrumentation\\/google.golang.org\\/grpc\\/otelgrpc:v0.46.1:*:*:*:*:*:*:*",
@@ -4951,7 +4951,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -4963,7 +4963,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -4981,7 +4981,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/contrib/instrumentation@v0.46.1?package-id=af481631692a0484#net/http/otelhttp",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/contrib/instrumentation@v0.46.1?package-id=fb032693262ed306#net/http/otelhttp",
           "name": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
           "version": "v0.46.1",
           "cpe": "cpe:2.3:a:contrib:instrumentation\\/net\\/http\\/otelhttp:v0.46.1:*:*:*:*:*:*:*",
@@ -5005,7 +5005,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5017,7 +5017,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5035,7 +5035,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/otel@v1.21.0?package-id=4300bf2cdd6e2f0a",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/otel@v1.21.0?package-id=7c210f64622cdb11",
           "name": "go.opentelemetry.io/otel",
           "version": "v1.21.0",
           "purl": "pkg:golang/go.opentelemetry.io/otel@v1.21.0",
@@ -5058,7 +5058,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5070,7 +5070,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5088,7 +5088,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/otel/exporters@v1.21.0?package-id=bcfece0c887debc3#otlp/otlptrace",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/otel/exporters@v1.21.0?package-id=336fea82dcad6c90#otlp/otlptrace",
           "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace",
           "version": "v1.21.0",
           "cpe": "cpe:2.3:a:otel:exporters\\/otlp\\/otlptrace:v1.21.0:*:*:*:*:*:*:*",
@@ -5112,7 +5112,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5124,7 +5124,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5142,7 +5142,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/otel/exporters@v1.21.0?package-id=40633c841955b518#otlp/otlptrace/otlptracegrpc",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/otel/exporters@v1.21.0?package-id=d1d2cb59f2865297#otlp/otlptrace/otlptracegrpc",
           "name": "go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc",
           "version": "v1.21.0",
           "cpe": "cpe:2.3:a:otel:exporters\\/otlp\\/otlptrace\\/otlptracegrpc:v1.21.0:*:*:*:*:*:*:*",
@@ -5166,7 +5166,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5178,7 +5178,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5196,7 +5196,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/otel/metric@v1.21.0?package-id=b237df63341f7962",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/otel/metric@v1.21.0?package-id=9009914a48d52931",
           "name": "go.opentelemetry.io/otel/metric",
           "version": "v1.21.0",
           "cpe": "cpe:2.3:a:otel:metric:v1.21.0:*:*:*:*:*:*:*",
@@ -5220,7 +5220,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5232,7 +5232,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5250,7 +5250,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/otel/sdk@v1.21.0?package-id=69a9691f02abf88b",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/otel/sdk@v1.21.0?package-id=6760f91833ab0e54",
           "name": "go.opentelemetry.io/otel/sdk",
           "version": "v1.21.0",
           "cpe": "cpe:2.3:a:otel:sdk:v1.21.0:*:*:*:*:*:*:*",
@@ -5274,7 +5274,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5286,7 +5286,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5304,7 +5304,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/otel/trace@v1.21.0?package-id=37a64b2908792d57",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/otel/trace@v1.21.0?package-id=0d88cd311b7c58cf",
           "name": "go.opentelemetry.io/otel/trace",
           "version": "v1.21.0",
           "cpe": "cpe:2.3:a:otel:trace:v1.21.0:*:*:*:*:*:*:*",
@@ -5328,7 +5328,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5340,7 +5340,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5358,7 +5358,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/proto/otlp@v1.0.0?package-id=57d95dd16e5650aa",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.opentelemetry.io/proto/otlp@v1.0.0?package-id=e29d1a66759c1c9a",
           "name": "go.opentelemetry.io/proto/otlp",
           "version": "v1.0.0",
           "cpe": "cpe:2.3:a:proto:otlp:v1.0.0:*:*:*:*:*:*:*",
@@ -5382,7 +5382,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5394,7 +5394,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5412,7 +5412,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.uber.org/atomic@v1.11.0?package-id=ba8d47e7a9ddf672",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.uber.org/atomic@v1.11.0?package-id=632dacde886341a9",
           "name": "go.uber.org/atomic",
           "version": "v1.11.0",
           "purl": "pkg:golang/go.uber.org/atomic@v1.11.0",
@@ -5435,7 +5435,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5447,7 +5447,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5465,7 +5465,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.uber.org/multierr@v1.11.0?package-id=a26315263d24e523",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.uber.org/multierr@v1.11.0?package-id=3d41e6e4543819fe",
           "name": "go.uber.org/multierr",
           "version": "v1.11.0",
           "purl": "pkg:golang/go.uber.org/multierr@v1.11.0",
@@ -5488,7 +5488,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5500,7 +5500,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5518,7 +5518,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.uber.org/zap@v1.19.0?package-id=f9a7a30996304d75",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/go.uber.org/zap@v1.19.0?package-id=5cfa5923db5f1c76",
           "name": "go.uber.org/zap",
           "version": "v1.19.0",
           "purl": "pkg:golang/go.uber.org/zap@v1.19.0",
@@ -5541,7 +5541,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5553,7 +5553,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5649,7 +5649,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/crypto@v0.18.0?package-id=5572e56edad37709",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/crypto@v0.18.0?package-id=ac66040a2f6523ff",
           "name": "golang.org/x/crypto",
           "version": "v0.18.0",
           "cpe": "cpe:2.3:a:golang:x\\/crypto:v0.18.0:*:*:*:*:*:*:*",
@@ -5673,7 +5673,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5685,7 +5685,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5703,7 +5703,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/exp@v0.0.0-20231110203233-9a3e6036ecaa?package-id=e94e612c6e3b789f",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/exp@v0.0.0-20231110203233-9a3e6036ecaa?package-id=cbb1cb2611e673bd",
           "name": "golang.org/x/exp",
           "version": "v0.0.0-20231110203233-9a3e6036ecaa",
           "cpe": "cpe:2.3:a:golang:x\\/exp:v0.0.0-20231110203233-9a3e6036ecaa:*:*:*:*:*:*:*",
@@ -5727,7 +5727,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5739,7 +5739,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5757,7 +5757,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/net@v0.20.0?package-id=a6023be5b31a9df7",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/net@v0.20.0?package-id=53f9597b61a453c6",
           "name": "golang.org/x/net",
           "version": "v0.20.0",
           "cpe": "cpe:2.3:a:golang:x\\/net:v0.20.0:*:*:*:*:*:*:*",
@@ -5781,7 +5781,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5793,7 +5793,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5811,7 +5811,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/oauth2@v0.16.0?package-id=51f31ab80cf50281",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/oauth2@v0.16.0?package-id=340761c048de913d",
           "name": "golang.org/x/oauth2",
           "version": "v0.16.0",
           "cpe": "cpe:2.3:a:golang:x\\/oauth2:v0.16.0:*:*:*:*:*:*:*",
@@ -5835,7 +5835,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5847,7 +5847,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5865,7 +5865,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/sync@v0.5.0?package-id=91f7dfa92c3515f1",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/sync@v0.5.0?package-id=0459acc1e5bb0d55",
           "name": "golang.org/x/sync",
           "version": "v0.5.0",
           "cpe": "cpe:2.3:a:golang:x\\/sync:v0.5.0:*:*:*:*:*:*:*",
@@ -5889,7 +5889,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5901,7 +5901,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5919,7 +5919,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/sys@v0.16.0?package-id=2f57c998fd725259",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/sys@v0.16.0?package-id=e907f98411b6669e",
           "name": "golang.org/x/sys",
           "version": "v0.16.0",
           "cpe": "cpe:2.3:a:golang:x\\/sys:v0.16.0:*:*:*:*:*:*:*",
@@ -5943,7 +5943,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -5955,7 +5955,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -5973,7 +5973,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/term@v0.16.0?package-id=e006f27ab82fc0e3",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/term@v0.16.0?package-id=35bacff33b2c3143",
           "name": "golang.org/x/term",
           "version": "v0.16.0",
           "cpe": "cpe:2.3:a:golang:x\\/term:v0.16.0:*:*:*:*:*:*:*",
@@ -5997,7 +5997,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -6009,7 +6009,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -6027,7 +6027,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/text@v0.14.0?package-id=d341bf35f6f26ba3",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/text@v0.14.0?package-id=abdbadc3f542ec79",
           "name": "golang.org/x/text",
           "version": "v0.14.0",
           "cpe": "cpe:2.3:a:golang:x\\/text:v0.14.0:*:*:*:*:*:*:*",
@@ -6051,7 +6051,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -6063,7 +6063,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -6081,7 +6081,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/time@v0.3.0?package-id=8681b3fa77002f71",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/golang.org/x/time@v0.3.0?package-id=ba38b775ae337a25",
           "name": "golang.org/x/time",
           "version": "v0.3.0",
           "cpe": "cpe:2.3:a:golang:x\\/time:v0.3.0:*:*:*:*:*:*:*",
@@ -6105,7 +6105,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -6117,7 +6117,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -6135,7 +6135,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/google.golang.org/genproto/googleapis@v0.0.0-20231012201019-e917dd12ba7a?package-id=4290bcac20fa180f#api",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/google.golang.org/genproto/googleapis@v0.0.0-20231012201019-e917dd12ba7a?package-id=c5349cc88ea75a53#api",
           "name": "google.golang.org/genproto/googleapis/api",
           "version": "v0.0.0-20231012201019-e917dd12ba7a",
           "cpe": "cpe:2.3:a:google:genproto:v0.0.0-20231012201019-e917dd12ba7a:*:*:*:*:*:*:*",
@@ -6159,7 +6159,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -6171,7 +6171,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -6189,7 +6189,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/google.golang.org/genproto/googleapis@v0.0.0-20231009173412-8bfb1ae86b6c?package-id=8f4597fa241506b2#rpc",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/google.golang.org/genproto/googleapis@v0.0.0-20231009173412-8bfb1ae86b6c?package-id=871d958138e518e1#rpc",
           "name": "google.golang.org/genproto/googleapis/rpc",
           "version": "v0.0.0-20231009173412-8bfb1ae86b6c",
           "cpe": "cpe:2.3:a:google:genproto:v0.0.0-20231009173412-8bfb1ae86b6c:*:*:*:*:*:*:*",
@@ -6213,7 +6213,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -6225,7 +6225,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -6243,7 +6243,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/google.golang.org/grpc@v1.59.0?package-id=d325a4262672d48a",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/google.golang.org/grpc@v1.59.0?package-id=08a27abc22a38ef3",
           "name": "google.golang.org/grpc",
           "version": "v1.59.0",
           "cpe": "cpe:2.3:a:google:grpc:v1.59.0:*:*:*:*:*:*:*",
@@ -6267,7 +6267,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -6279,7 +6279,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -6297,11 +6297,11 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/google.golang.org/protobuf@v1.32.0?package-id=bcbdc8b84e889293",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/google.golang.org/protobuf@v1.33.0?package-id=cfaf7c50f93f3cbf",
           "name": "google.golang.org/protobuf",
-          "version": "v1.32.0",
-          "cpe": "cpe:2.3:a:google:protobuf:v1.32.0:*:*:*:*:*:*:*",
-          "purl": "pkg:golang/google.golang.org/protobuf@v1.32.0",
+          "version": "v1.33.0",
+          "cpe": "cpe:2.3:a:google:protobuf:v1.33.0:*:*:*:*:*:*:*",
+          "purl": "pkg:golang/google.golang.org/protobuf@v1.33.0",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -6321,7 +6321,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -6333,7 +6333,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -6341,7 +6341,7 @@
             },
             {
               "name": "syft:metadata:h1Digest",
-              "value": "h1:pPC6BG5ex8PDFnkbrGU3EixyhKcQ2aDuBS36lqK/C7I="
+              "value": "h1:uNO2rsAINq/JlFpSdYEKIZ0uKD/R9cpdv0T\u002ByoGwGmI="
             },
             {
               "name": "syft:metadata:mainModule",
@@ -6351,7 +6351,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=2d2c73297d36e336",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=ed46a93dd68e6e61",
           "name": "gopkg.in/inf.v0",
           "version": "v0.9.1",
           "purl": "pkg:golang/gopkg.in/inf.v0@v0.9.1",
@@ -6374,7 +6374,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -6386,7 +6386,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -6404,7 +6404,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/gopkg.in/natefinch/lumberjack.v2@v2.2.1?package-id=4f3b40e063044ff3",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/gopkg.in/natefinch/lumberjack.v2@v2.2.1?package-id=1214d6df922f9280",
           "name": "gopkg.in/natefinch/lumberjack.v2",
           "version": "v2.2.1",
           "purl": "pkg:golang/gopkg.in/natefinch/lumberjack.v2@v2.2.1",
@@ -6427,7 +6427,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -6439,7 +6439,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -6457,7 +6457,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=f08d03c2c794ca7c",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=d7c5b882dcb3df0f",
           "name": "gopkg.in/yaml.v2",
           "version": "v2.4.0",
           "purl": "pkg:golang/gopkg.in/yaml.v2@v2.4.0",
@@ -6480,7 +6480,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -6492,7 +6492,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -6510,7 +6510,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=261a336e1fccf1b9",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=123cebf167545fdb",
           "name": "gopkg.in/yaml.v3",
           "version": "v3.0.1",
           "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1",
@@ -6533,7 +6533,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -6545,7 +6545,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -6957,10 +6957,10 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/api@v0.29.0?package-id=23dabfb21c21eae6",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/api@v0.29.2?package-id=7b1946cdf7c6bc70",
           "name": "k8s.io/api",
-          "version": "v0.29.0",
-          "purl": "pkg:golang/k8s.io/api@v0.29.0",
+          "version": "v0.29.2",
+          "purl": "pkg:golang/k8s.io/api@v0.29.2",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -6980,7 +6980,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -6992,7 +6992,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -7000,7 +7000,7 @@
             },
             {
               "name": "syft:metadata:h1Digest",
-              "value": "h1:NiCdQMY1QOp1H8lfRyeEf8eOwV6\u002B0xA6XEE44ohDX2A="
+              "value": "h1:hBC7B9\u002BMU\u002BptchxEqTNW2DkUosJpp1P\u002BWn6YncZ474A="
             },
             {
               "name": "syft:metadata:mainModule",
@@ -7010,10 +7010,10 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/apimachinery@v0.29.0?package-id=d02b95e70c6c8bc8",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/apimachinery@v0.29.2?package-id=5d89251eeeaee741",
           "name": "k8s.io/apimachinery",
-          "version": "v0.29.0",
-          "purl": "pkg:golang/k8s.io/apimachinery@v0.29.0",
+          "version": "v0.29.2",
+          "purl": "pkg:golang/k8s.io/apimachinery@v0.29.2",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -7033,7 +7033,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -7045,7 +7045,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -7053,7 +7053,7 @@
             },
             {
               "name": "syft:metadata:h1Digest",
-              "value": "h1:\u002BACVktwyicPz0oc6MTMLwa2Pw3ouLAfAon1wPLtG48o="
+              "value": "h1:EWGpfJ856oj11C52NRCHuU7rFDwxev48z\u002B6DSlGNsV8="
             },
             {
               "name": "syft:metadata:mainModule",
@@ -7063,10 +7063,10 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/apiserver@v0.29.0?package-id=a5e6839ee71c8a3b",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/apiserver@v0.29.2?package-id=06a2a9db6f771fba",
           "name": "k8s.io/apiserver",
-          "version": "v0.29.0",
-          "purl": "pkg:golang/k8s.io/apiserver@v0.29.0",
+          "version": "v0.29.2",
+          "purl": "pkg:golang/k8s.io/apiserver@v0.29.2",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -7086,7 +7086,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -7098,7 +7098,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -7106,7 +7106,7 @@
             },
             {
               "name": "syft:metadata:h1Digest",
-              "value": "h1:Y1xEMjJkP\u002BBIi0GSEv1BBrf1jLU9UPfAnnGGbbDdp7o="
+              "value": "h1:\u002BZ9S0dSNr\u002BCjnVXQePG8TcBWHr3Q7BmAr7NraHvsMiQ="
             },
             {
               "name": "syft:metadata:mainModule",
@@ -7116,10 +7116,10 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/client-go@v0.29.0?package-id=53d90af9832330f6",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/client-go@v0.29.2?package-id=60970cc673876c59",
           "name": "k8s.io/client-go",
-          "version": "v0.29.0",
-          "purl": "pkg:golang/k8s.io/client-go@v0.29.0",
+          "version": "v0.29.2",
+          "purl": "pkg:golang/k8s.io/client-go@v0.29.2",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -7139,7 +7139,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -7151,7 +7151,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -7159,7 +7159,7 @@
             },
             {
               "name": "syft:metadata:h1Digest",
-              "value": "h1:KmlDtFcrdUzOYrBhXHgKw5ycWzc3ryPX5mQe0SkG3y8="
+              "value": "h1:FEg85el1TeZp\u002B/vYJM7hkDlSTFZ\u002Bc5nnK44DJ4FyoRg="
             },
             {
               "name": "syft:metadata:mainModule",
@@ -7169,10 +7169,10 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/component-base@v0.29.0?package-id=4f3a5e232523e270",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/component-base@v0.29.2?package-id=aadc070b7cc2d56e",
           "name": "k8s.io/component-base",
-          "version": "v0.29.0",
-          "purl": "pkg:golang/k8s.io/component-base@v0.29.0",
+          "version": "v0.29.2",
+          "purl": "pkg:golang/k8s.io/component-base@v0.29.2",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -7192,7 +7192,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -7204,7 +7204,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -7212,7 +7212,7 @@
             },
             {
               "name": "syft:metadata:h1Digest",
-              "value": "h1:T7rjd5wvLnPBV1vC4zWd/iWRbV8Mdxs\u002BnGaoaFzGw3s="
+              "value": "h1:lpiLyuvPA9yV1aQwGLENYyK7n/8t6l3nn3zAtFTJYe8="
             },
             {
               "name": "syft:metadata:mainModule",
@@ -7222,7 +7222,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/klog/v2@v2.120.0?package-id=5d8b762d5ba8b0b4",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/klog/v2@v2.120.0?package-id=daea4d9c375e0efd",
           "name": "k8s.io/klog/v2",
           "version": "v2.120.0",
           "cpe": "cpe:2.3:a:klog:v2:v2.120.0:*:*:*:*:*:*:*",
@@ -7246,7 +7246,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -7258,7 +7258,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -7276,10 +7276,10 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/kms@v0.29.0?package-id=9c7cfe619b82b310",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/kms@v0.29.2?package-id=3d9920d51a43fb7e",
           "name": "k8s.io/kms",
-          "version": "v0.29.0",
-          "purl": "pkg:golang/k8s.io/kms@v0.29.0",
+          "version": "v0.29.2",
+          "purl": "pkg:golang/k8s.io/kms@v0.29.2",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -7299,7 +7299,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -7311,7 +7311,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -7319,7 +7319,7 @@
             },
             {
               "name": "syft:metadata:h1Digest",
-              "value": "h1:KJ1zaZt74CgvgV3NR7tnURJ/mJOKC5X3nwon/WdwgxI="
+              "value": "h1:MDsbp98gSlEQs7K7dqLKNNTwKFQRYYvO4UOlBOjNy6Y="
             },
             {
               "name": "syft:metadata:mainModule",
@@ -7329,7 +7329,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/kube-openapi@v0.0.0-20231010175941-2dd684a91f00?package-id=9f9652f1b265e187",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/kube-openapi@v0.0.0-20231010175941-2dd684a91f00?package-id=82fa3bc00f56bf64",
           "name": "k8s.io/kube-openapi",
           "version": "v0.0.0-20231010175941-2dd684a91f00",
           "purl": "pkg:golang/k8s.io/kube-openapi@v0.0.0-20231010175941-2dd684a91f00",
@@ -7352,7 +7352,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -7364,7 +7364,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -7382,10 +7382,10 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/metrics@v0.29.0?package-id=e78431f53665b80d",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/metrics@v0.29.2?package-id=73ead16045295d6b",
           "name": "k8s.io/metrics",
-          "version": "v0.29.0",
-          "purl": "pkg:golang/k8s.io/metrics@v0.29.0",
+          "version": "v0.29.2",
+          "purl": "pkg:golang/k8s.io/metrics@v0.29.2",
           "properties": [
             {
               "name": "syft:package:foundBy",
@@ -7405,7 +7405,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -7417,7 +7417,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -7425,7 +7425,7 @@
             },
             {
               "name": "syft:metadata:h1Digest",
-              "value": "h1:a6dWcNM\u002BEEowMzMZ8trka6wZtSRIfEA/9oLjuhBksGc="
+              "value": "h1:oLSTHEr40V7c7C8wDRRhiAefjGRHROK5zeV8NT0tpzc="
             },
             {
               "name": "syft:metadata:mainModule",
@@ -7435,7 +7435,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/utils@v0.0.0-20230726121419-3b25d923346b?package-id=e252a78b0a2362da",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/k8s.io/utils@v0.0.0-20230726121419-3b25d923346b?package-id=72c5ee63c3fee8d8",
           "name": "k8s.io/utils",
           "version": "v0.0.0-20230726121419-3b25d923346b",
           "purl": "pkg:golang/k8s.io/utils@v0.0.0-20230726121419-3b25d923346b",
@@ -7458,7 +7458,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -7470,7 +7470,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -12352,7 +12352,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/sigs.k8s.io/apiserver-network-proxy/konnectivity-client@v0.28.0?package-id=2e6fa9bf95192c07",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/sigs.k8s.io/apiserver-network-proxy/konnectivity-client@v0.28.0?package-id=a1f4e58baeddb6c3",
           "name": "sigs.k8s.io/apiserver-network-proxy/konnectivity-client",
           "version": "v0.28.0",
           "cpe": "cpe:2.3:a:apiserver-network-proxy:konnectivity-client:v0.28.0:*:*:*:*:*:*:*",
@@ -12412,7 +12412,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -12424,7 +12424,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -12442,7 +12442,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/sigs.k8s.io/json@v0.0.0-20221116044647-bc3834ca7abd?package-id=f6eef2a9798a4484",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/sigs.k8s.io/json@v0.0.0-20221116044647-bc3834ca7abd?package-id=3f1221b5471a2fa8",
           "name": "sigs.k8s.io/json",
           "version": "v0.0.0-20221116044647-bc3834ca7abd",
           "purl": "pkg:golang/sigs.k8s.io/json@v0.0.0-20221116044647-bc3834ca7abd",
@@ -12465,7 +12465,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -12477,7 +12477,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -12495,7 +12495,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/sigs.k8s.io/metrics-server@(devel)?package-id=b8148f8d51d7c1ef",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/sigs.k8s.io/metrics-server@(devel)?package-id=b07b725644fc71f2",
           "name": "sigs.k8s.io/metrics-server",
           "version": "(devel)",
           "purl": "pkg:golang/sigs.k8s.io/metrics-server@(devel)",
@@ -12518,7 +12518,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -12530,7 +12530,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -12544,7 +12544,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.4.1?package-id=6ccae936117632df",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.4.1?package-id=e3f4563ecdc92e59",
           "name": "sigs.k8s.io/structured-merge-diff/v4",
           "version": "v4.4.1",
           "cpe": "cpe:2.3:a:structured-merge-diff:v4:v4.4.1:*:*:*:*:*:*:*",
@@ -12584,7 +12584,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -12596,7 +12596,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -12614,7 +12614,7 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/sigs.k8s.io/yaml@v1.3.0?package-id=b78d85ec7ab911cc",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/sigs.k8s.io/yaml@v1.3.0?package-id=002d170e386a3043",
           "name": "sigs.k8s.io/yaml",
           "version": "v1.3.0",
           "purl": "pkg:golang/sigs.k8s.io/yaml@v1.3.0",
@@ -12637,7 +12637,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -12649,7 +12649,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             },
             {
               "name": "syft:metadata:goCryptoSettings:0",
@@ -12745,9 +12745,9 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/stdlib@1.21.6?package-id=1cb80d9dcfede4d8",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/stdlib@1.21.8?package-id=8c05cec4b9a85aba",
           "name": "stdlib",
-          "version": "go1.21.6",
+          "version": "go1.21.8",
           "licenses": [
             {
               "license": {
@@ -12755,8 +12755,8 @@
               }
             }
           ],
-          "cpe": "cpe:2.3:a:golang:go:1.21.6:-:*:*:*:*:*:*",
-          "purl": "pkg:golang/stdlib@1.21.6",
+          "cpe": "cpe:2.3:a:golang:go:1.21.8:-:*:*:*:*:*:*",
+          "purl": "pkg:golang/stdlib@1.21.8",
           "properties": [
             {
               "name": "syft:package:language",
@@ -12772,7 +12772,7 @@
             },
             {
               "name": "syft:location:0:layerID",
-              "value": "sha256:908022c4b9e9548623d6b9c4bfcc0ffec5852d799b10abd9655e3e9f247522e3"
+              "value": "sha256:02fb4ad747d5c1bdac8e4434e67edd75caf5bb892697269a216b5780c4a851cb"
             },
             {
               "name": "syft:location:0:path",
@@ -12780,7 +12780,7 @@
             },
             {
               "name": "syft:metadata:goCompiledVersion",
-              "value": "go1.21.6"
+              "value": "go1.21.8"
             }
           ]
         },
@@ -24953,7 +24953,7 @@
     {
       "ref": "metrics-server@0.0.1",
       "dependsOn": [
-        "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:c1a3ec6496757d2f",
+        "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:83029a3689d29b55",
         "registry1.dso.mil/ironbank/opensource/kubernetes/kubectl@v1.28.7:49a3feab1a4888ce"
       ]
     }
