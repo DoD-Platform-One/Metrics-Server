@@ -1,7 +1,7 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.5",
-  "serialNumber": "urn:uuid:23c1b07d-197e-4524-a6b2-e96ed9cc5641",
+  "serialNumber": "urn:uuid:5f316005-f541-4b1d-a47b-f8e4e7897693",
   "version": 1,
   "metadata": {
     "tools": null,
@@ -12495,10 +12495,10 @@
         },
         {
           "type": "library",
-          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/sigs.k8s.io/metrics-server@(devel)?package-id=b07b725644fc71f2",
+          "bom-ref": "registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server@v0.7.0:pkg:golang/sigs.k8s.io/metrics-server@v0.7.1?package-id=a1cb748478e79779",
           "name": "sigs.k8s.io/metrics-server",
-          "version": "(devel)",
-          "purl": "pkg:golang/sigs.k8s.io/metrics-server@(devel)",
+          "version": "v0.7.1",
+          "purl": "pkg:golang/sigs.k8s.io/metrics-server@v0.7.1",
           "properties": [
             {
               "name": "syft:package:foundBy",
