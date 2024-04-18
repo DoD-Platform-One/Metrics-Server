@@ -3,6 +3,12 @@
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+## [3.12.1-bb.0] - 2024-04-15
+### Added
+- Update metrics-server v0.7.0 -> v0.7.1
+- Update kubectl v1.28.7 -> v1.29.3
+- Update gluon 0.4.8 -> 0.4.9
+
 ## [3.12.0-bb.1] - 2024-03-11
 ### Added
  - Added istio Sidecar and ServiceEntry resources
