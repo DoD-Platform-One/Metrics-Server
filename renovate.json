@@ -6,7 +6,7 @@
     "dependencyDashboardTitle": "Renovate: Upgrade Metrics-Server Package Dependencies",
     "draftPR": true,
     "enabledManagers": ["helm-values", "regex", "helmv3"],
-    "labels": ["metricsServer","Package Sustainment","kind::maintenance", "renovate"],
+    "labels": ["metricsServer", "kind::maintenance", "renovate"],
     "commitMessagePrefix": "SKIP UPDATE CHECK",
     "ignorePaths": ["**/.gitlab-ci.yml"],  
     "separateMajorMinor": "false",
@@ -27,13 +27,6 @@
           ],
           "registryUrlTemplate": "https://registry1.dso.mil",
           "depNameTemplate": "ironbank/opensource/kubernetes-sigs/metrics-server",
-          "datasourceTemplate": "docker"
-        },
-        {
-          "fileMatch": ["^chart/values\\.yaml$"],
-          "matchStrings": [
-            "image:\\s+repository:\\s+[^/]+/(?<depName>.+)\\s+tag:\\s+(?<currentValue>.+)"
-          ],
           "datasourceTemplate": "docker"
         },
         {
