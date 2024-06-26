@@ -5,11 +5,13 @@
 Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 
 ## Upstream References
+
 * <https://github.com/kubernetes-sigs/metrics-server>
 
 * <https://github.com/kubernetes-sigs/metrics-server>
 
 ## Learn More
+
 * [Application Overview](docs/overview.md)
 * [Other Documentation](docs/)
 
@@ -21,12 +23,13 @@ Metrics Server is a scalable, efficient source of container resource metrics for
 
 Install Helm
 
-https://helm.sh/docs/intro/install/
+<https://helm.sh/docs/intro/install/>
 
 ## Deployment
 
 * Clone down the repository
 * cd into directory
+
 ```bash
 helm install metrics-server chart/
 ```
