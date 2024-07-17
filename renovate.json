@@ -9,6 +9,7 @@
     "commitMessagePrefix": "SKIP UPDATE CHECK",
     "ignorePaths": ["**/.gitlab-ci.yml"],  
     "separateMajorMinor": "false",
+    "postUpdateOptions": ["helmUpdateSubChartArchives"],
     "packageRules": [
       {
         "matchDatasources": ["docker"],
