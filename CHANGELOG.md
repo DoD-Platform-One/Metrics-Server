@@ -4,6 +4,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [3.12.1-bb.4] - 2024-08-15
+
+### Changed
+
+- Run podLabels through tpl to interpret template expressions
+
 ## [3.12.1-bb.3] - 2024-07-03
 
 ### Removed
