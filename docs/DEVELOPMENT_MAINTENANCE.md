@@ -69,6 +69,22 @@
 
 ## chart/templates/deployment.yaml
 - Overrides `automountServiceAccountToken` hardening at the Pod spec-level due to app requirements
+- Upstream chart has L26-30 written:
+```
+ labels:
+        {{- include "metrics-server.selectorLabels" . | nindent 8 }}
+      {{- with .Values.podLabels }}
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+```
+However, in Big Bang clusters this fails regex validation, and thus should be kept as:
+```
+ labels:
+        {{- include "metrics-server.selectorLabels" . | nindent 8 }}
+      {{- with .Values.podLabels }}
+        {{- tpl (toYaml .) $ | nindent 8 }}
+      {{- end }}
+```
 
 ## chart/Kptfile
 - Tracks current upstream chart
