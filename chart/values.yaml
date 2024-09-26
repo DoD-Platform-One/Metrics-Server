@@ -5,7 +5,7 @@
 image:
   repository: registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server
   # Overrides the image tag whose default is v{{ .Chart.AppVersion }}
-  tag: "v0.7.1"
+  tag: "v0.7.2"
   pullPolicy: IfNotPresent
 
 imagePullSecrets:
@@ -138,7 +138,7 @@ addonResizer:
   enabled: false
   image:
     repository: registry.k8s.io/autoscaling/addon-resizer
-    tag: 1.8.20
+    tag: 1.8.21
   securityContext:
     allowPrivilegeEscalation: false
     readOnlyRootFilesystem: true
@@ -255,7 +255,7 @@ networkPolicies:
 bbtests:
   enabled: false
   scripts:
-    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.29.3
+    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.29.6
   imagePullSecret: private-registry
 
 topologySpreadConstraints: []
