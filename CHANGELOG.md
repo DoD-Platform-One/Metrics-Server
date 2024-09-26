@@ -3,6 +3,15 @@
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+## [3.12.2-bb.0] - 2024-09-25
+
+### Upgraded
+- Update metrics-server `v0.7.1` -> `v0.7.2`
+- Update addOnResizer `1.8.20` -> `1.8.21`
+- Update kubectl `v1.29.3` -> `v1.29.8`
+- Update gluon `0.4.9` -> `0.5.4`
+- Chart updated `3.12.1-bb.6` -> `3.12.2-bb.0`
+
 ## [3.12.1-bb.6] - 2024-09-24
 
 ### Fixed

@@ -2,8 +2,8 @@ apiVersion: v2
 name: metrics-server
 description: Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 type: application
-version: 3.12.1-bb.6
-appVersion: 0.7.1
+version: 3.12.2-bb.0
+appVersion: 0.7.2
 keywords:
   - kubernetes
   - metrics-server
@@ -21,7 +21,7 @@ maintainers:
     url: https://github.com/endrec
 dependencies:
   - name: gluon
-    version: 0.4.9
+    version: 0.5.4
     repository: oci://registry1.dso.mil/bigbang
 annotations:
   artifacthub.io/changes: |
@@ -32,10 +32,10 @@ annotations:
     - kind: changed
       description: "Changed the default addon resizer nanny resource configuration to match the documented Metrics Server autoscaling values."
   bigbang.dev/applicationVersions: |
-    - Metrics Server: v0.7.1
+    - Metrics Server: v0.7.2
   helm.sh/images: |
     - name: metrics-server
-      image: registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server:v0.7.1
+      image: registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server:v0.7.2
     - name: kubectl
-      image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.29.3
+      image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.29.8
       condition: bbtests.enabled
