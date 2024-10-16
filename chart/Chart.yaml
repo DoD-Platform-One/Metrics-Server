@@ -2,7 +2,7 @@ apiVersion: v2
 name: metrics-server
 description: Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 type: application
-version: 3.12.2-bb.0
+version: 3.12.2-bb.1
 appVersion: 0.7.2
 keywords:
   - kubernetes
@@ -33,6 +33,9 @@ annotations:
       description: "Changed the default addon resizer nanny resource configuration to match the documented Metrics Server autoscaling values."
   bigbang.dev/applicationVersions: |
     - Metrics Server: v0.7.2
+  bigbang.dev/upstreamReleaseNotesMarkdown: |
+    * [Find our upstream chart's CHANGELOG here](https://github.com/kubernetes-sigs/metrics-server/blob/master/charts/metrics-server/CHANGELOG.md)
+    * [and our upstream application release notes here](https://github.com/kubernetes-sigs/metrics-server/releases)
   helm.sh/images: |
     - name: metrics-server
       image: registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server:v0.7.2
