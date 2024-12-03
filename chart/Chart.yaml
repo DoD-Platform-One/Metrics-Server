@@ -24,6 +24,7 @@ dependencies:
     version: 0.5.4
     repository: oci://registry1.dso.mil/bigbang
 annotations:
+  bigbang.dev/maintenanceTrack: bb_integrated
   artifacthub.io/changes: |
     - kind: changed
       description: "Updated the _Metrics Server_ OCI image to [v0.7.1](https://github.com/kubernetes-sigs/metrics-server/releases/tag/v0.7.1)."
