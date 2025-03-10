@@ -4,6 +4,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [3.12.2-bb.2] - 2025-03-07
+
+### Upgraded
+- Update kubectl `1.29.8` -> `1.30.10`
+- Update gluon `0.5.4` -> `0.5.14`
+- Update addon-resizer `1.8.21` -> `1.8.23`
+
 ## [3.12.2-bb.1] - 2024-10-15
 
 ### Added
