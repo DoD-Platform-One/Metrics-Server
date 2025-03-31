@@ -1,7 +1,7 @@
 <!-- Warning: Do not manually edit this file. See notes on gluon + helm-docs at the end of this file for more information. -->
 # metrics-server
 
-![Version: 3.12.2-bb.2](https://img.shields.io/badge/Version-3.12.2--bb.2-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 0.7.2](https://img.shields.io/badge/AppVersion-0.7.2-informational?style=flat-square) ![Maintenance Track: bb_integrated](https://img.shields.io/badge/Maintenance_Track-bb_integrated-green?style=flat-square)
+![Version: 3.12.2-bb.3](https://img.shields.io/badge/Version-3.12.2--bb.3-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 0.7.2](https://img.shields.io/badge/AppVersion-0.7.2-informational?style=flat-square) ![Maintenance Track: bb_integrated](https://img.shields.io/badge/Maintenance_Track-bb_integrated-green?style=flat-square)
 
 Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 
@@ -12,8 +12,8 @@ Metrics Server is a scalable, efficient source of container resource metrics for
 
 ## Upstream Release Notes
 
-* [Find our upstream chart's CHANGELOG here](https://github.com/kubernetes-sigs/metrics-server/blob/master/charts/metrics-server/CHANGELOG.md)
-* [and our upstream application release notes here](https://github.com/kubernetes-sigs/metrics-server/releases)
+- [Find our upstream chart's CHANGELOG here](https://github.com/kubernetes-sigs/metrics-server/blob/master/charts/metrics-server/CHANGELOG.md)
+- [and our upstream application release notes here](https://github.com/kubernetes-sigs/metrics-server/releases)
 
 ## Learn More
 
