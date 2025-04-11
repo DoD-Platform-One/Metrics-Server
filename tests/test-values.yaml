@@ -1,2 +1,40 @@
-bbtests:
+#########################
+# Disable Core Packages #
+#########################
+grafana:
+  enabled: false
+neuvector:
+  enabled: false
+promtail:
+  enabled: false
+tempo:
+  enabled: false
+kyvernoReporter:
+  enabled: false
+kiali:
+  enabled: false
+loki:
+  enabled: false
+  values:
+    bbtests:
+      enabled: false
+addons:
+  minioOperator:
+    enabled: false
+  alloy:
+    enabled: false
+########################
+# Required for package #
+########################
+  metricsServer:
+    enabled: true
+kyvernoPolicies:
+  values:
+    bbtests:
+      enabled: false
+kyverno:
+  values:
+    bbtests:
+      enabled: false
+monitoring:
   enabled: true
