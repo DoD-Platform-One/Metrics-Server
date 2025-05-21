@@ -22,7 +22,7 @@ spec:
         matchLabels:
           {{- toYaml .Values.networkPolicies.ingressLabels | nindent 10}}
     ports:
-    - port: {{ .Values.service.port }}
+    - port: {{ .Values.upstream.service.port }}
       protocol: TCP
   egress:
   - to:

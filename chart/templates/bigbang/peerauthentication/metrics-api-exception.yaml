@@ -12,6 +12,6 @@ spec:
       app.kubernetes.io/name: metrics-server
   # Metrics server requires the PERMISSIVE mode at this time as the control plane deployments do not have istio proxy injection.
   portLevelMtls:
-    "{{ .Values.containerPort }}":
+    "{{ .Values.upstream.containerPort }}":
       mode: PERMISSIVE
 {{- end }}
