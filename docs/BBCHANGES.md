@@ -24,18 +24,19 @@ networkPolicies:
 Incremented replicas to establish a minimal High-Availability deployment w/ podAntiAffinity to ensure pods are scheduled to different nodes
 
 ```yaml
-replicas: 2
+upstream:
+  replicas: 2
 
-affinity:
-  podAntiAffinity:
-    requiredDuringSchedulingIgnoredDuringExecution:
-    - labelSelector:
-        matchExpressions:
-        - key: app
-          operator: In
-          values:
-          - metrics-server
-      topologyKey: "kubernetes.io/hostname"
+  affinity:
+    podAntiAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+      - labelSelector:
+          matchExpressions:
+          - key: app
+            operator: In
+            values:
+            - metrics-server
+        topologyKey: "kubernetes.io/hostname"
 ```
 
 Network policies have been added under [chart/templates/bigbang/networkpolicies](../chart/templates/bigbang/networkpolicies/)

@@ -4,6 +4,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [3.12.2-bb.4] - 2025-04-23
+
+### Changed
+- Refactor chart to Big Bang passthrough chart pattern
+
 ## [3.12.2-bb.3] - 2025-03-26
 
 ### Added
