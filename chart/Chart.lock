@@ -1,9 +1,9 @@
 dependencies:
 - name: gluon
   repository: oci://registry1.dso.mil/bigbang
-  version: 0.5.14
+  version: 0.6.3
 - name: metrics-server
   repository: https://kubernetes-sigs.github.io/metrics-server/
   version: 3.12.2
-digest: sha256:9ccb1817807eb7659e3458cf0818d284a863624bf833f8112369f7c283f24888
-generated: "2025-05-12T11:43:28.711149-04:00"
+digest: sha256:9acdc0c4074adc9990bd7947c83c6694386f772c6a90563baf525483acf81ce1
+generated: "2025-07-17T06:14:35.190178326Z"

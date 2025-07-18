@@ -2,8 +2,8 @@ apiVersion: v2
 name: metrics-server
 description: Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines.
 type: application
-version: 3.12.2-bb.4
-appVersion: 0.7.2
+version: 3.12.2-bb.5
+appVersion: 0.8.0
 keywords:
   - kubernetes
   - metrics-server
@@ -21,7 +21,7 @@ maintainers:
     url: https://github.com/endrec
 dependencies:
   - name: gluon
-    version: 0.5.14
+    version: 0.6.3
     repository: oci://registry1.dso.mil/bigbang
   - name: metrics-server
     version: v3.12.2
@@ -30,13 +30,13 @@ dependencies:
 annotations:
   bigbang.dev/maintenanceTrack: bb_integrated
   bigbang.dev/applicationVersions: |
-    - Metrics Server: v0.7.2
+    - Metrics Server: v0.8.0
   bigbang.dev/upstreamReleaseNotesMarkdown: |
     * [Find our upstream chart's CHANGELOG here](https://github.com/kubernetes-sigs/metrics-server/blob/master/charts/metrics-server/CHANGELOG.md)
     * [and our upstream application release notes here](https://github.com/kubernetes-sigs/metrics-server/releases)
   helm.sh/images: |
     - name: metrics-server
-      image: registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server:v0.7.2
+      image: registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server:v0.8.0
     - name: kubectl
-      image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.30.10
+      image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.32.7
       condition: bbtests.enabled
