@@ -5,7 +5,7 @@ upstream:
   image:
     repository: registry1.dso.mil/ironbank/opensource/kubernetes-sigs/metrics-server
     # Overrides the image tag whose default is v{{ .Chart.AppVersion }}
-    tag: "v0.7.2"
+    tag: "v0.8.0"
     pullPolicy: IfNotPresent
 
   imagePullSecrets:
@@ -98,5 +98,5 @@ networkPolicies:
 bbtests:
   enabled: false
   scripts:
-    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.30.10
+    image: registry1.dso.mil/ironbank/opensource/kubernetes/kubectl:v1.32.7
   imagePullSecret: private-registry
