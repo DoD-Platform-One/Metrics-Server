@@ -3,6 +3,10 @@
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+## [3.13.0-bb.1] (2025-10-15)
+### Changed
+- Updated the allow-kube-api network policy template to allow setting vpcCidr
+
 ## [3.13.0-bb.0] (2025-07-22)
 ### Changed
 - metrics-server updated from 3.12.2 to 3.13.0
