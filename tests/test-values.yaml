@@ -16,10 +16,10 @@ loki:
   values:
     bbtests:
       enabled: false
+alloy:
+  enabled: false
 addons:
   minioOperator:
-    enabled: false
-  alloy:
     enabled: false
 ########################
 # Required for package #
