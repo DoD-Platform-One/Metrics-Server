@@ -1,29 +1,7 @@
-#########################
-# Disable Core Packages #
-#########################
-grafana:
-  enabled: false
-neuvector:
-  enabled: false
-tempo:
-  enabled: false
-kyvernoReporter:
-  enabled: false
-kiali:
-  enabled: false
-loki:
-  enabled: false
-  values:
-    bbtests:
-      enabled: false
-alloy:
-  enabled: false
-addons:
-  minioOperator:
-    enabled: false
 ########################
 # Required for package #
 ########################
+addons:
   metricsServer:
     enabled: true
 kyvernoPolicies:
