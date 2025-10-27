@@ -2,7 +2,7 @@
 
 ## Overview
 
-This package contains an installation of Metric Server using a helm chart sourced from [upstream](https://github.com/kubernetes-sigs/metrics-server/charts/metrics-server) with minimal modifications.
+This package contains an installation of Metric Server using a helm chart sourced from [upstream](https://github.com/kubernetes-sigs/metrics-server/tree/master/charts/metrics-server) with minimal modifications.
 
 ## Metric Server
 
