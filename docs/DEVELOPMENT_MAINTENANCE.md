@@ -66,16 +66,17 @@ NOTE: Metrics Server Renovate updates differ from most other BigBang Renovate up
 
 ### [test-values.yaml](https://repo1.dso.mil/big-bang/bigbang/-/blob/master/tests/test-values.yaml?ref_type=heads)
     ```yaml
-    metricsServer:
-      enabled: true
-      git:
-        tag: null
-        branch: <my-package-branch-that-needs-testing>
-      values:
-        istio:
-          hardened:
-            enabled: true
-      ### Additional compononents of Metrics Server should be changed to reflect testing changes introduced in the package MR
+    addons:
+      metricsServer:
+        enabled: true
+        git:
+          tag: null
+          branch: <my-package-branch-that-needs-testing>
+        values:
+          istio:
+            hardened:
+              enabled: true
+        ### Additional compononents of Metrics Server should be changed to reflect testing changes introduced in the package MR
     ```
 
 9. Perform the steps below for manual testing
