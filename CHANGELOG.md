@@ -3,6 +3,11 @@
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+## [3.13.0-bb.5] (2026-2-13)
+### Changed
+- gluon 0.9.7 -> 0.9.8
+- metrics-server v0.8.0 -> 0.8.1
+
 ## [3.13.0-bb.4] (2025-12-10)
 ### Changed
 - gluon 0.9.5 -> 0.9.7
